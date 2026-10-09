@@ -54,8 +54,14 @@ int main(void)
 
     PRINTF("FRDM-MCXA156: consola disponible\r\n");
 
+    /* 1. Asignar divisor y conectar el reloj de 12MHz al CTIMER0 */
+    CLOCK_SetClockDiv(kCLOCK_DivCTIMER0, 1U);
+    CLOCK_AttachClk(kFRO12M_to_CTIMER0);
+
+    /* 2. Liberar el reset y encender el CTIMER0 */
     RESET_ReleasePeripheralReset(kCTIMER0_RST_SHIFT_RSTn);
     CLOCK_EnableClock(kCLOCK_GateCTIMER0);
+    
     Demo_TickInit(12000000U);
 
     uint32_t lastService = g_ms;

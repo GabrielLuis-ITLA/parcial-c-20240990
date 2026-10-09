@@ -50,3 +50,9 @@
 575	782	1791586990500699091	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj	ab6def922fb29cf4
 550	820	1791586990476120707	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/str/fsl_str.c.obj	ac026cca7ec35c16
 443	881	1791586990369409451	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj	3d247cbfcdc7fcaa
+18	423	1791587418907284301	CMakeFiles/hello_world.dir/hello_world.c.obj	b892e9c244907c76
+423	554	1791587419312154221	hello_world.elf	52d4c1de0bb892af
+17	441	1791587935438026775	CMakeFiles/hello_world.dir/hello_world.c.obj	b892e9c244907c76
+441	559	1791587935862245141	hello_world.elf	52d4c1de0bb892af
+20	404	1791589372139191028	CMakeFiles/hello_world.dir/hello_world.c.obj	b892e9c244907c76
+404	552	1791589372522565677	hello_world.elf	52d4c1de0bb892af
