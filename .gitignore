@@ -1,0 +1,9 @@
+build/
+*.exe
+*.o
+*.obj
+a.out
+.DS_Store
+Thumbs.db
+.env
+west/
