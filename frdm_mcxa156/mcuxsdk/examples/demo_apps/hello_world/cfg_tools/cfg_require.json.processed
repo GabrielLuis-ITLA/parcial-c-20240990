@@ -1,0 +1,17 @@
+{
+  "projects": [{
+    "core": "cm33_core0",
+    "addComponents": [],
+    "device_package": "MCXA156VLL",
+    "addIncludes": [],
+    "projectBoardFolder": "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world",
+    "source_generated_cmake_file_path": "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/cfg_tools_generated.cmake",
+    "addFiles": [],
+    "name": "hello_world",
+    "removeFiles": [],
+    "projectRootPath": "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world",
+    "component_edit_prj_file_path": "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/prj.conf",
+    "board": "frdmmcxa156"
+  }],
+  "$schema": "https://mcuxpresso.nxp.com/staticdata/mcux/schema/cfg_require/cfg_require_schema_1.0.json"
+}

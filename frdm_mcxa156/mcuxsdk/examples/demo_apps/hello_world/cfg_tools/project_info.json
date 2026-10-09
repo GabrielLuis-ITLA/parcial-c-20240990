@@ -1,0 +1,178 @@
+{
+    "$schema": "https://mcuxpresso.nxp.com/staticdata/mcux/schema/project_info/project_info_schema_3.0.json",
+    "projects": [
+        {
+            "projectRootPath": "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world",
+            "name": "hello_world",
+            "device_package": "MCXA156VLL",
+            "board": "frdmmcxa156",
+            "source_generated_cmake_file_path": "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/cfg_tools_generated.cmake",
+            "component_edit_prj_file_path": "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/prj.conf",
+            "component_id_map_path": "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/tool_data/misc/component_id_map.yml",
+            "outputPath": "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world",
+            "includes": [
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/str",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/m-profile",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/port",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_lite",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156"
+            ],
+            "files": [
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_LPSPI.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_WAKETIMER.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/board.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_inputmux_connections.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/fsl_device_registers.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_SCG.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_lite/fsl_debug_console.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/system_MCXA156.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_OSTIMER.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/app.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/cmsis_version.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_LPDAC.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/MCXA156.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/str/fsl_str.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/clock_config.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_PWM.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_GLIKEY.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_FMU.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_TRDC.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common/fsl_common_arm.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/clock_config.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/hardware_init.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/MCXA156_COMMON.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_OPAMP.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/core_cm33.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_CAN.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_VBAT.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_sbrk.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/pin_mux.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_uart.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_USB.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_I3C.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common/fsl_common.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_FMUTEST.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_LPTMR.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_ERM.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_WUU.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_LPUART.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_CTIMER.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_AOI.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/system_MCXA156.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/tz_context.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/fsl_spc.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_INPUTMUX.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_SPC.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_PORT.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_EQDC.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/board.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_WWDT.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_CRC.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common/fsl_common_arm.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_LPCMP.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_EIM.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_CDOG.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_DMA.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world/hello_world.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_DEBUGMAILBOX.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/port/fsl_port.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_FLEXIO.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert/fsl_assert.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common/fsl_common.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/cmsis_compiler.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/MCXA156_features.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_FREQME.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_LPI2C.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_syscall_stub.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_UTICK.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert/fsl_assert.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_MRCC.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_lite/fsl_debug_console.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/fsl_spc.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_SYSCON.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_CMC.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/pin_mux.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/str/fsl_str.c",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_GPIO.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/m-profile/armv8m_mpu.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_FMC.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/cmsis_gcc.h",
+                "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_ADC.h"
+            ],
+            "components": [
+                {
+                    "kconfig_id": "driver.clock"
+                },
+                {
+                    "kconfig_id": "driver.inputmux_connections"
+                },
+                {
+                    "kconfig_id": "driver.reset"
+                },
+                {
+                    "kconfig_id": "CMSIS_Include_core_cm"
+                },
+                {
+                    "kconfig_id": "device.CMSIS"
+                },
+                {
+                    "kconfig_id": "device.system"
+                },
+                {
+                    "kconfig_id": "device.startup"
+                },
+                {
+                    "kconfig_id": "driver.common"
+                },
+                {
+                    "kconfig_id": "driver.gpio"
+                },
+                {
+                    "kconfig_id": "driver.lpuart"
+                },
+                {
+                    "kconfig_id": "driver.mcx_spc"
+                },
+                {
+                    "kconfig_id": "driver.port"
+                },
+                {
+                    "kconfig_id": "utility.assert_lite"
+                },
+                {
+                    "kconfig_id": "utilities.misc_utilities"
+                },
+                {
+                    "kconfig_id": "utility.str"
+                },
+                {
+                    "kconfig_id": "utility.debug_console_lite"
+                },
+                {
+                    "kconfig_id": "component.lpuart_adapter"
+                }
+            ]
+        }
+    ]
+}

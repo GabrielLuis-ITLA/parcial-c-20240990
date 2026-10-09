@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "components/adc_sensor",
+		"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/adc_sensor"
+	}
+}

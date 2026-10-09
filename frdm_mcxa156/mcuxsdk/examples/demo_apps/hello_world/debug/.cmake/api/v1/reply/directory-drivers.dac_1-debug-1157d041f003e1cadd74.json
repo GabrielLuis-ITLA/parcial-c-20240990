@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "drivers/dac_1",
+		"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/dac_1"
+	}
+}

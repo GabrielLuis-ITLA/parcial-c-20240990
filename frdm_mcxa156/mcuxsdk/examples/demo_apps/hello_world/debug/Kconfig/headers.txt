@@ -1,0 +1,1 @@
+/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world/debug/mcux_config.h

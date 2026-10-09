@@ -1,0 +1,2857 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						8,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196,
+						197,
+						198,
+						199
+					],
+					"jsonFile" : "directory-.-debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "cmake/extension/flash",
+					"jsonFile" : "directory-cmake.extension.flash-debug-02096aa742c549ac2789.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/cmake/extension/flash",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "cmake/extension/usage",
+					"jsonFile" : "directory-cmake.extension.usage-debug-867789a21aeb7916b6e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/cmake/extension/usage",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "cmake/extension/reports",
+					"jsonFile" : "directory-cmake.extension.reports-debug-a0ea630395cec448bda4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/cmake/extension/reports",
+					"targetIndexes" : 
+					[
+						1,
+						5,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "devices/MCX/MCXA/MCXA156",
+					"childIndexes" : 
+					[
+						5,
+						7
+					],
+					"jsonFile" : "directory-devices.MCX.MCXA.MCXA156-debug-90205ccee4294c0baa75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156"
+				},
+				{
+					"build" : "devices/MCX/MCXA/MCXA156/drivers",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-devices.MCX.MCXA.MCXA156.drivers-debug-10d98661b9cec4957781.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers"
+				},
+				{
+					"build" : "devices/MCX/MCXA/MCXA153/drivers/romapi",
+					"jsonFile" : "directory-devices.MCX.MCXA.MCXA153.drivers.romapi-debug-970a05f4348af3c3f6bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA153/drivers/romapi"
+				},
+				{
+					"build" : "arch/arm/CMSIS",
+					"jsonFile" : "directory-arch.arm.CMSIS-debug-ce470bd1d46bc089ce6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS"
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						9
+					],
+					"jsonFile" : "directory-examples-debug-cc80d46afd74aed65b34.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples"
+				},
+				{
+					"build" : "examples/_boards/frdmmcxa156",
+					"jsonFile" : "directory-examples._boards.frdmmcxa156-debug-c10662d98d3f72982a1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156"
+				},
+				{
+					"build" : "drivers/aoi",
+					"jsonFile" : "directory-drivers.aoi-debug-ba02be782ae4f044756e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/aoi"
+				},
+				{
+					"build" : "drivers/cdog",
+					"jsonFile" : "directory-drivers.cdog-debug-0854d531c8eb25de9f0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/cdog"
+				},
+				{
+					"build" : "drivers/common",
+					"jsonFile" : "directory-drivers.common-debug-759605b9a5bb7ed07bef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common"
+				},
+				{
+					"build" : "drivers/crc",
+					"jsonFile" : "directory-drivers.crc-debug-3611cfb818410db8ff9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/crc"
+				},
+				{
+					"build" : "drivers/ctimer",
+					"jsonFile" : "directory-drivers.ctimer-debug-a7d97c8a290e962051f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer"
+				},
+				{
+					"build" : "drivers/dac_1",
+					"jsonFile" : "directory-drivers.dac_1-debug-1157d041f003e1cadd74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/dac_1"
+				},
+				{
+					"build" : "drivers/edma4",
+					"jsonFile" : "directory-drivers.edma4-debug-269d8a4093652c58e440.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/edma4"
+				},
+				{
+					"build" : "drivers/edma_unified",
+					"jsonFile" : "directory-drivers.edma_unified-debug-c27d0207e3034a02db02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/edma_unified"
+				},
+				{
+					"build" : "drivers/eim",
+					"jsonFile" : "directory-drivers.eim-debug-9a23bba0db762fbd553b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/eim"
+				},
+				{
+					"build" : "drivers/eqdc",
+					"jsonFile" : "directory-drivers.eqdc-debug-5e4d5cbf0e4c62a9af29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/eqdc"
+				},
+				{
+					"build" : "drivers/erm",
+					"jsonFile" : "directory-drivers.erm-debug-a34a5fe23c66e9ca74ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/erm"
+				},
+				{
+					"build" : "drivers/flexcan",
+					"jsonFile" : "directory-drivers.flexcan-debug-de5e73dde0df9ccf9bec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexcan"
+				},
+				{
+					"build" : "drivers/flexio",
+					"jsonFile" : "directory-drivers.flexio-debug-b1c61de6f31a4fb227bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexio"
+				},
+				{
+					"build" : "drivers/flexpwm",
+					"jsonFile" : "directory-drivers.flexpwm-debug-1c84c8f1fe93501c073c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexpwm"
+				},
+				{
+					"build" : "drivers/glikey",
+					"jsonFile" : "directory-drivers.glikey-debug-eadec99f69575d62d918.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/glikey"
+				},
+				{
+					"build" : "drivers/gpio",
+					"jsonFile" : "directory-drivers.gpio-debug-acc8fd8dbe6882c4610c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio"
+				},
+				{
+					"build" : "drivers/i3c",
+					"jsonFile" : "directory-drivers.i3c-debug-ba5a3107c4861876c49a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/i3c"
+				},
+				{
+					"build" : "drivers/inputmux",
+					"jsonFile" : "directory-drivers.inputmux-debug-aa0d66139c914a005c75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/inputmux"
+				},
+				{
+					"build" : "drivers/lpadc",
+					"jsonFile" : "directory-drivers.lpadc-debug-aabc8f0369843ee47723.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpadc"
+				},
+				{
+					"build" : "drivers/lpc_freqme",
+					"jsonFile" : "directory-drivers.lpc_freqme-debug-7188dc8724659ef97e1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpc_freqme"
+				},
+				{
+					"build" : "drivers/lpcmp",
+					"jsonFile" : "directory-drivers.lpcmp-debug-b6d024695f4f0994fec9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpcmp"
+				},
+				{
+					"build" : "drivers/lpi2c",
+					"jsonFile" : "directory-drivers.lpi2c-debug-70439cd2ba6585b05cb2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpi2c"
+				},
+				{
+					"build" : "drivers/lpspi",
+					"jsonFile" : "directory-drivers.lpspi-debug-c7085620511c2b10888a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpspi"
+				},
+				{
+					"build" : "drivers/lptmr",
+					"jsonFile" : "directory-drivers.lptmr-debug-1954c78738f119b99e54.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lptmr"
+				},
+				{
+					"build" : "drivers/lpuart",
+					"jsonFile" : "directory-drivers.lpuart-debug-c1382fb79c264c891ed0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart"
+				},
+				{
+					"build" : "drivers/mcx_cmc",
+					"jsonFile" : "directory-drivers.mcx_cmc-debug-c7bd894b372866d22085.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_cmc"
+				},
+				{
+					"build" : "drivers/mcx_spc",
+					"jsonFile" : "directory-drivers.mcx_spc-debug-537c3c4a7118b7af5be6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc"
+				},
+				{
+					"build" : "drivers/mcx_vbat",
+					"jsonFile" : "directory-drivers.mcx_vbat-debug-a71234826ba7feda43ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_vbat"
+				},
+				{
+					"build" : "drivers/opamp",
+					"jsonFile" : "directory-drivers.opamp-debug-8e53e51366eca9933fc1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/opamp"
+				},
+				{
+					"build" : "drivers/ostimer",
+					"jsonFile" : "directory-drivers.ostimer-debug-60486348d53c576eec22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ostimer"
+				},
+				{
+					"build" : "drivers/port",
+					"jsonFile" : "directory-drivers.port-debug-258257cbf14c9fdb1854.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/port"
+				},
+				{
+					"build" : "drivers/pwm",
+					"jsonFile" : "directory-drivers.pwm-debug-94e129aea01e6332042d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/pwm"
+				},
+				{
+					"build" : "drivers/smartcard",
+					"jsonFile" : "directory-drivers.smartcard-debug-42c3ad5e34596155d8c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/smartcard"
+				},
+				{
+					"build" : "drivers/trdc_1",
+					"jsonFile" : "directory-drivers.trdc_1-debug-4ce0c9e1cad6c46447d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/trdc_1"
+				},
+				{
+					"build" : "drivers/utick",
+					"jsonFile" : "directory-drivers.utick-debug-126e822bcfadf2188a1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/utick"
+				},
+				{
+					"build" : "drivers/waketimer",
+					"jsonFile" : "directory-drivers.waketimer-debug-1c38fd3d0098b010e7e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/waketimer"
+				},
+				{
+					"build" : "drivers/wuu",
+					"jsonFile" : "directory-drivers.wuu-debug-852d4e8337602c5d3501.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/wuu"
+				},
+				{
+					"build" : "drivers/wwdt",
+					"jsonFile" : "directory-drivers.wwdt-debug-6a6e4e333ab43ec05895.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/wwdt"
+				},
+				{
+					"build" : "drivers/cache/armv7-m7",
+					"jsonFile" : "directory-drivers.cache.armv7-m7-debug-04fb97aaf2148494b22b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/cache/armv7-m7"
+				},
+				{
+					"build" : "drivers/cache/armv8-a",
+					"jsonFile" : "directory-drivers.cache.armv8-a-debug-b3d61b4d656576b7f1e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/cache/armv8-a"
+				},
+				{
+					"build" : "drivers/cache/cache64",
+					"jsonFile" : "directory-drivers.cache.cache64-debug-a6958e69419c28d88270.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/cache/cache64"
+				},
+				{
+					"build" : "drivers/cache/llc",
+					"jsonFile" : "directory-drivers.cache.llc-debug-5a95d0142dd0353fc847.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/cache/llc"
+				},
+				{
+					"build" : "drivers/cache/lmem",
+					"jsonFile" : "directory-drivers.cache.lmem-debug-62ffbb0bfc7ccfedfd89.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/cache/lmem"
+				},
+				{
+					"build" : "drivers/cache/lpcac",
+					"jsonFile" : "directory-drivers.cache.lpcac-debug-f8817ab8abd08dc9324b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/cache/lpcac"
+				},
+				{
+					"build" : "drivers/cache/lpcac_n4a_mcxn",
+					"jsonFile" : "directory-drivers.cache.lpcac_n4a_mcxn-debug-b644062d05e14962d7f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/cache/lpcac_n4a_mcxn"
+				},
+				{
+					"build" : "drivers/cache/lplmem",
+					"jsonFile" : "directory-drivers.cache.lplmem-debug-bc5544ec3d9ce3bb2620.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/cache/lplmem"
+				},
+				{
+					"build" : "drivers/cache/xcache",
+					"jsonFile" : "directory-drivers.cache.xcache-debug-470fb9808f82d6212560.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/cache/xcache"
+				},
+				{
+					"build" : "drivers/flexio/a-format",
+					"jsonFile" : "directory-drivers.flexio.a-format-debug-23a68d969a398eeaec43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexio/a-format"
+				},
+				{
+					"build" : "drivers/flexio/biss",
+					"jsonFile" : "directory-drivers.flexio.biss-debug-668d7e5be2db2b074859.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexio/biss"
+				},
+				{
+					"build" : "drivers/flexio/camera",
+					"jsonFile" : "directory-drivers.flexio.camera-debug-c52a590d1f783bca0b9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexio/camera"
+				},
+				{
+					"build" : "drivers/flexio/endat2p2",
+					"jsonFile" : "directory-drivers.flexio.endat2p2-debug-d1f3eb9a5490b1200e87.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexio/endat2p2"
+				},
+				{
+					"build" : "drivers/flexio/i2c",
+					"jsonFile" : "directory-drivers.flexio.i2c-debug-3b7b1fb7af200a57ef60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexio/i2c"
+				},
+				{
+					"build" : "drivers/flexio/i2s",
+					"jsonFile" : "directory-drivers.flexio.i2s-debug-e48a8470cf5dec91efd6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexio/i2s"
+				},
+				{
+					"build" : "drivers/flexio/mculcd",
+					"jsonFile" : "directory-drivers.flexio.mculcd-debug-1671e2291e3454232908.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexio/mculcd"
+				},
+				{
+					"build" : "drivers/flexio/qspi",
+					"jsonFile" : "directory-drivers.flexio.qspi-debug-6745e8a1f269d5ddcc79.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexio/qspi"
+				},
+				{
+					"build" : "drivers/flexio/spi",
+					"jsonFile" : "directory-drivers.flexio.spi-debug-9c14f4374dcc5bff5b39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexio/spi"
+				},
+				{
+					"build" : "drivers/flexio/t-format",
+					"jsonFile" : "directory-drivers.flexio.t-format-debug-6396bc740fe5342a5b23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexio/t-format"
+				},
+				{
+					"build" : "drivers/flexio/uart",
+					"jsonFile" : "directory-drivers.flexio.uart-debug-fb8e1cfa2d021b886c23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/flexio/uart"
+				},
+				{
+					"build" : "components",
+					"childIndexes" : 
+					[
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						82,
+						83,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						161,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185
+					],
+					"jsonFile" : "directory-components-debug-00537679de03820df93f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components"
+				},
+				{
+					"build" : "components/assert",
+					"jsonFile" : "directory-components.assert-debug-7ab4815aafbf3000c9c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert"
+				},
+				{
+					"build" : "components/audio",
+					"jsonFile" : "directory-components.audio-debug-1b3490f0ecffb2d0308a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/audio"
+				},
+				{
+					"build" : "components/aws_iot",
+					"jsonFile" : "directory-components.aws_iot-debug-b985a2098e9c73f07711.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/aws_iot"
+				},
+				{
+					"build" : "components/button",
+					"jsonFile" : "directory-components.button-debug-ab8151f41c592c9f3e12.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/button"
+				},
+				{
+					"build" : "components/common_task",
+					"jsonFile" : "directory-components.common_task-debug-7a19440b11fe93f82cd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/common_task"
+				},
+				{
+					"build" : "components/coremark",
+					"jsonFile" : "directory-components.coremark-debug-cff1faf056fb515583e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/coremark"
+				},
+				{
+					"build" : "components/crc",
+					"jsonFile" : "directory-components.crc-debug-36733c8392618950a1f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/crc"
+				},
+				{
+					"build" : "components/debug_console",
+					"jsonFile" : "directory-components.debug_console-debug-401f857dbfc05cf6dd45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console"
+				},
+				{
+					"build" : "components/debug_console_lite",
+					"jsonFile" : "directory-components.debug_console_lite-debug-881908a59d6820ea3ccb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_lite"
+				},
+				{
+					"build" : "components/display",
+					"jsonFile" : "directory-components.display-debug-8123c954c5e5d44e5d57.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/display"
+				},
+				{
+					"build" : "components/exception_handling",
+					"jsonFile" : "directory-components.exception_handling-debug-662081560682eeb5a127.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/exception_handling"
+				},
+				{
+					"build" : "components/flash",
+					"childIndexes" : 
+					[
+						81
+					],
+					"jsonFile" : "directory-components.flash-debug-f01a899d23fc74e194e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/flash"
+				},
+				{
+					"build" : "components/flash/mflash/mcxa",
+					"jsonFile" : "directory-components.flash.mflash.mcxa-debug-2fce70b0f048081f8a1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 80,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/flash/mflash/mcxa"
+				},
+				{
+					"build" : "components/gpio",
+					"jsonFile" : "directory-components.gpio-debug-e6c4b584ca6af311c912.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/gpio"
+				},
+				{
+					"build" : "components/i2c",
+					"childIndexes" : 
+					[
+						84
+					],
+					"jsonFile" : "directory-components.i2c-debug-b3ab9d8170468377fe4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/i2c"
+				},
+				{
+					"build" : "components/i2c/muxes",
+					"jsonFile" : "directory-components.i2c.muxes-debug-c4d915ce54c4d8738ece.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 83,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/i2c/muxes"
+				},
+				{
+					"build" : "components/internal_flash",
+					"jsonFile" : "directory-components.internal_flash-debug-ec6daf9946df28e71dd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/internal_flash"
+				},
+				{
+					"build" : "components/led",
+					"jsonFile" : "directory-components.led-debug-d658d4a3ac30f6480f8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/led"
+				},
+				{
+					"build" : "components/lists",
+					"jsonFile" : "directory-components.lists-debug-fc3aa6d6e6c6581b5bd2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/lists"
+				},
+				{
+					"build" : "components/log",
+					"jsonFile" : "directory-components.log-debug-33057ab914c3b1998ce7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/log"
+				},
+				{
+					"build" : "components/mem_manager",
+					"jsonFile" : "directory-components.mem_manager-debug-e12bba1f89d3522e0e73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/mem_manager"
+				},
+				{
+					"build" : "components/messaging",
+					"jsonFile" : "directory-components.messaging-debug-6c679ce4337f319dab3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/messaging"
+				},
+				{
+					"build" : "components/misc_utilities",
+					"jsonFile" : "directory-components.misc_utilities-debug-1073b8eea85364413891.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities"
+				},
+				{
+					"build" : "components/osa",
+					"jsonFile" : "directory-components.osa-debug-304784b79fb7ff6a3e45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/osa"
+				},
+				{
+					"build" : "components/panic",
+					"jsonFile" : "directory-components.panic-debug-9cedfaa1ec60035a91f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/panic"
+				},
+				{
+					"build" : "components/pmic",
+					"jsonFile" : "directory-components.pmic-debug-1c23c15e285a9c9459dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/pmic"
+				},
+				{
+					"build" : "components/power_manager",
+					"jsonFile" : "directory-components.power_manager-debug-c6660d22e3365e1e17da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/power_manager"
+				},
+				{
+					"build" : "components/pwm",
+					"jsonFile" : "directory-components.pwm-debug-baefbd7afc3da6e66fdc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/pwm"
+				},
+				{
+					"build" : "components/reset",
+					"jsonFile" : "directory-components.reset-debug-b1f97f3936cbeeabfd12.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/reset"
+				},
+				{
+					"build" : "components/reset1",
+					"jsonFile" : "directory-components.reset1-debug-07b9e51ae147ed1edf54.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/reset1"
+				},
+				{
+					"build" : "components/rng",
+					"jsonFile" : "directory-components.rng-debug-486a37673d5566d1ff2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/rng"
+				},
+				{
+					"build" : "components/rpmsg",
+					"jsonFile" : "directory-components.rpmsg-debug-f6cf4a1e11b07adc0af2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/rpmsg"
+				},
+				{
+					"build" : "components/rtc",
+					"jsonFile" : "directory-components.rtc-debug-4e773d2e1ffa0dc705cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/rtc"
+				},
+				{
+					"build" : "components/sensor",
+					"jsonFile" : "directory-components.sensor-debug-174787eb690662a5172e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/sensor"
+				},
+				{
+					"build" : "components/serial_manager",
+					"jsonFile" : "directory-components.serial_manager-debug-e9cdbd2c0756dae8649c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/serial_manager"
+				},
+				{
+					"build" : "components/shell",
+					"jsonFile" : "directory-components.shell-debug-b1a9716258995bb268e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/shell"
+				},
+				{
+					"build" : "components/spi",
+					"jsonFile" : "directory-components.spi-debug-1d970235f97f2373bf1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/spi"
+				},
+				{
+					"build" : "components/str",
+					"jsonFile" : "directory-components.str-debug-2b6fae0db6415e3be358.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/str"
+				},
+				{
+					"build" : "components/timer",
+					"jsonFile" : "directory-components.timer-debug-7f7eeca2ec8dec3d2e7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/timer"
+				},
+				{
+					"build" : "components/timer_manager",
+					"jsonFile" : "directory-components.timer_manager-debug-951135892001a9c47ac4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/timer_manager"
+				},
+				{
+					"build" : "components/time_stamp",
+					"jsonFile" : "directory-components.time_stamp-debug-a912aa27d030fb42f7d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/time_stamp"
+				},
+				{
+					"build" : "components/touch",
+					"jsonFile" : "directory-components.touch-debug-04d35f787c8c5a319663.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/touch"
+				},
+				{
+					"build" : "components/uart",
+					"jsonFile" : "directory-components.uart-debug-9f64b641adbb1bd5eeee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart"
+				},
+				{
+					"build" : "components/video",
+					"jsonFile" : "directory-components.video-debug-f90130aadfafd0293880.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/video"
+				},
+				{
+					"build" : "components/phy",
+					"jsonFile" : "directory-components.phy-debug-38dcce0c0a631bd3bb19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/phy"
+				},
+				{
+					"build" : "components/IS42SM16800H",
+					"jsonFile" : "directory-components.IS42SM16800H-debug-90e04f70e3323c22fa17.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/IS42SM16800H"
+				},
+				{
+					"build" : "components/adc_sensor",
+					"jsonFile" : "directory-components.adc_sensor-debug-aa04677499f14ab19162.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/adc_sensor"
+				},
+				{
+					"build" : "components/conn_fwloader",
+					"jsonFile" : "directory-components.conn_fwloader-debug-efce70d0590656d22e98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/conn_fwloader"
+				},
+				{
+					"build" : "components/ele_crypto",
+					"jsonFile" : "directory-components.ele_crypto-debug-57ce88a753e6516ad513.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/ele_crypto"
+				},
+				{
+					"build" : "components/v2x_base",
+					"jsonFile" : "directory-components.v2x_base-debug-bb7050ec3b7cc5058433.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/v2x_base"
+				},
+				{
+					"build" : "components/v2x_fce",
+					"jsonFile" : "directory-components.v2x_fce-debug-6b74b9b16b497ca13255.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/v2x_fce"
+				},
+				{
+					"build" : "components/i3c_bus",
+					"jsonFile" : "directory-components.i3c_bus-debug-54486b082915e8e4f2ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/i3c_bus"
+				},
+				{
+					"build" : "components/imx_sm_crc",
+					"jsonFile" : "directory-components.imx_sm_crc-debug-499ec45b09eb6dfaf3a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/imx_sm_crc"
+				},
+				{
+					"build" : "components/imu_adapter",
+					"jsonFile" : "directory-components.imu_adapter-debug-a6ced39ae046f2af59ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/imu_adapter"
+				},
+				{
+					"build" : "components/mt48lc2m32b2",
+					"jsonFile" : "directory-components.mt48lc2m32b2-debug-06ebb35582882eda2ce8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/mt48lc2m32b2"
+				},
+				{
+					"build" : "components/mt48lc4m16a2",
+					"jsonFile" : "directory-components.mt48lc4m16a2-debug-147c3027e064b6aeef6c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/mt48lc4m16a2"
+				},
+				{
+					"build" : "components/mx25_flash",
+					"jsonFile" : "directory-components.mx25_flash-debug-20ad7458d571f2e92c47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/mx25_flash"
+				},
+				{
+					"build" : "components/mx25l_flash",
+					"jsonFile" : "directory-components.mx25l_flash-debug-196e5b89146d08ddde55.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/mx25l_flash"
+				},
+				{
+					"build" : "components/mx25r_flash",
+					"jsonFile" : "directory-components.mx25r_flash-debug-aa4197ca3466cdad63d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/mx25r_flash"
+				},
+				{
+					"build" : "components/rtt",
+					"jsonFile" : "directory-components.rtt-debug-8c97a07a944128f598ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/rtt"
+				},
+				{
+					"build" : "components/scmi",
+					"jsonFile" : "directory-components.scmi-debug-3cca78c5074644626174.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/scmi"
+				},
+				{
+					"build" : "components/sdu",
+					"jsonFile" : "directory-components.sdu-debug-c315450c4581ed34fd30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/sdu"
+				},
+				{
+					"build" : "components/slcd_engine",
+					"jsonFile" : "directory-components.slcd_engine-debug-b9b83eb62d4f3a75cb12.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/slcd_engine"
+				},
+				{
+					"build" : "components/smt",
+					"jsonFile" : "directory-components.smt-debug-db95075deb2db1e90a9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/smt"
+				},
+				{
+					"build" : "components/srtm",
+					"childIndexes" : 
+					[
+						134,
+						135
+					],
+					"jsonFile" : "directory-components.srtm-debug-9af25b5fdc54ee934451.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/srtm"
+				},
+				{
+					"build" : "components/srtm/channels",
+					"jsonFile" : "directory-components.srtm.channels-debug-1bba3d25180944fdc9ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 133,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/srtm/channels"
+				},
+				{
+					"build" : "components/srtm/services",
+					"jsonFile" : "directory-components.srtm.services-debug-f364e7dea9ddc9cc0a11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 133,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/srtm/services"
+				},
+				{
+					"build" : "components/sx1502",
+					"jsonFile" : "directory-components.sx1502-debug-507376c3aadba851c27d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/sx1502"
+				},
+				{
+					"build" : "components/wifi_bt_module",
+					"jsonFile" : "directory-components.wifi_bt_module-debug-099de0454f5b34840510.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/wifi_bt_module"
+				},
+				{
+					"build" : "components/smbus",
+					"jsonFile" : "directory-components.smbus-debug-60358e6a7b5810e55c82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/smbus"
+				},
+				{
+					"build" : "components/debug_console_rtt",
+					"jsonFile" : "directory-components.debug_console_rtt-debug-8be10ab6e8152fd9b632.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_rtt"
+				},
+				{
+					"build" : "components/semihost",
+					"jsonFile" : "directory-components.semihost-debug-40960445fdaa5368bf56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/semihost"
+				},
+				{
+					"build" : "components/notifier",
+					"jsonFile" : "directory-components.notifier-debug-2bf3c35eda23744ec96b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/notifier"
+				},
+				{
+					"build" : "components/ele_base_api",
+					"jsonFile" : "directory-components.ele_base_api-debug-aa0bdc556483a4689903.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/ele_base_api"
+				},
+				{
+					"build" : "components/format",
+					"jsonFile" : "directory-components.format-debug-2de3b77cd5ccde3f90fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/format"
+				},
+				{
+					"build" : "components/mpi_loader",
+					"jsonFile" : "directory-components.mpi_loader-debug-ab2e95b2be68b3f8c349.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/mpi_loader"
+				},
+				{
+					"build" : "components/pinctrl",
+					"jsonFile" : "directory-components.pinctrl-debug-1f270e24b7c660cb26af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/pinctrl"
+				},
+				{
+					"build" : "components/clock",
+					"jsonFile" : "directory-components.clock-debug-08c99a5d12ecd79d4d29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/clock"
+				},
+				{
+					"build" : "components/silicon_id",
+					"jsonFile" : "directory-components.silicon_id-debug-bd79db0af7b1e4bfc23e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/silicon_id"
+				},
+				{
+					"build" : "components/sm",
+					"jsonFile" : "directory-components.sm-debug-980807a31bfa5d8a000e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/sm"
+				},
+				{
+					"build" : "components/systick_timer",
+					"jsonFile" : "directory-components.systick_timer-debug-e52615d9bcf87468d14e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/systick_timer"
+				},
+				{
+					"build" : "components/timer_lptmr",
+					"jsonFile" : "directory-components.timer_lptmr-debug-5f470cb2b74854029a21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/timer_lptmr"
+				},
+				{
+					"build" : "components/unity",
+					"jsonFile" : "directory-components.unity-debug-45df8dfbea8dad831c3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/unity"
+				},
+				{
+					"build" : "components/power",
+					"jsonFile" : "directory-components.power-debug-e3f41e66a0ed6172dafe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/power"
+				},
+				{
+					"build" : "components/codec",
+					"jsonFile" : "directory-components.codec-debug-675e20029e3f9c18e0ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/codec"
+				},
+				{
+					"build" : "components/expander",
+					"jsonFile" : "directory-components.expander-debug-0236d51257f05a2e0949.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/expander"
+				},
+				{
+					"build" : "components/edgefast_wifi",
+					"jsonFile" : "directory-components.edgefast_wifi-debug-4200e1ca51afae94ba6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/edgefast_wifi"
+				},
+				{
+					"build" : "components/eeprom_emulation",
+					"jsonFile" : "directory-components.eeprom_emulation-debug-346df1c8a02b2cc8eedd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/eeprom_emulation"
+				},
+				{
+					"build" : "components/eeprom_emulation_k4",
+					"jsonFile" : "directory-components.eeprom_emulation_k4-debug-b2a00ba28f4127bf7e8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/eeprom_emulation_k4"
+				},
+				{
+					"build" : "components/storage",
+					"childIndexes" : 
+					[
+						159,
+						160
+					],
+					"jsonFile" : "directory-components.storage-debug-78492a9074076a2f1248.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/storage"
+				},
+				{
+					"build" : "components/storage/stream",
+					"jsonFile" : "directory-components.storage.stream-debug-26b7c19e210599384e2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 158,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/storage/stream"
+				},
+				{
+					"build" : "components/storage/flash_map",
+					"jsonFile" : "directory-components.storage.flash_map-debug-8c2e582ac1e25e5beae3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 158,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/storage/flash_map"
+				},
+				{
+					"build" : "components/debug",
+					"childIndexes" : 
+					[
+						162
+					],
+					"jsonFile" : "directory-components.debug-debug-046edc70d9bbe2300c04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug"
+				},
+				{
+					"build" : "components/debug/coredump",
+					"jsonFile" : "directory-components.debug.coredump-debug-4ef082d33abda50b2cf4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 161,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug/coredump"
+				},
+				{
+					"build" : "components/gen_hal",
+					"jsonFile" : "directory-components.gen_hal-debug-f61e7a966acf929ad7a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/gen_hal"
+				},
+				{
+					"build" : "components/lce",
+					"jsonFile" : "directory-components.lce-debug-71b0b9f862a87fcac413.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/lce"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_dspi",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_dspi-debug-cd6bc8b67652138b92ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_dspi"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_ecspi",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_ecspi-debug-fefb9ab7e6da89cb06c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_ecspi"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_enet",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_enet-debug-c774f55daacbe5828a6c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_enet"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_enet_phy",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_enet_phy-debug-cc889fbe164fb163cb10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_enet_phy"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_flexcomm",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_flexcomm-debug-f2c56340769981ac3f90.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_flexcomm"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_gpio",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_gpio-debug-889bff4cfdd1deebe2b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_gpio"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_i2c",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_i2c-debug-119118a8e3bafa5eee71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_i2c"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_ii2c",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_ii2c-debug-64120d7fc64709626397.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_ii2c"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_iuart",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_iuart-debug-42a709a46b3fa8e58350.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_iuart"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpc_gpio",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpc_gpio-debug-f4bff427af8f233b1c49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_lpc_gpio"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpc_i2c",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpc_i2c-debug-2fd2733bb215f62fb0aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_lpc_i2c"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpc_vspi",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpc_vspi-debug-eabc32ccc922884c168f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_lpc_vspi"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpc_vusart",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpc_vusart-debug-b7a9e1eaa3b239ae8adb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_lpc_vusart"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpi2c",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpi2c-debug-4a6bcc8e6485bf5c42a5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_lpi2c"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpsci",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpsci-debug-f1b0fa51175c5caab789.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_lpsci"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpspi",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpspi-debug-f878f901615c4595fe39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_lpspi"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_lpuart",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_lpuart-debug-2141e2b76e1297d18e9c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_lpuart"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_mcx_enet",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_mcx_enet-debug-716e2a7008ed7dd6aa22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_mcx_enet"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_mcx_flash",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_mcx_flash-debug-8a29eb22eeb38568ff20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_mcx_flash"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_spi",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_spi-debug-5c7f0759393ab32394f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_spi"
+				},
+				{
+					"build" : "components/cmsis_drivers/cmsis_uart",
+					"jsonFile" : "directory-components.cmsis_drivers.cmsis_uart-debug-e83acfdca61cfb60039d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/cmsis_drivers/cmsis_uart"
+				},
+				{
+					"build" : "rtos/freertos/freertos-kernel",
+					"jsonFile" : "directory-rtos.freertos.freertos-kernel-debug-22aa428807ecb765225c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/rtos/freertos/freertos-kernel"
+				},
+				{
+					"build" : "middleware/usb",
+					"jsonFile" : "directory-middleware.usb-debug-38f34ea0195dc50b57e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/middleware/usb"
+				},
+				{
+					"build" : "middleware/fatfs",
+					"jsonFile" : "directory-middleware.fatfs-debug-d1965f1490508470f488.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/middleware/fatfs"
+				},
+				{
+					"build" : "middleware/littlefs",
+					"jsonFile" : "directory-middleware.littlefs-debug-8ecba9fa6daef4c1f848.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/middleware/littlefs"
+				},
+				{
+					"build" : "middleware/rtcesl",
+					"jsonFile" : "directory-middleware.rtcesl-debug-e885161b18c5c4509e0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/middleware/rtcesl"
+				},
+				{
+					"build" : "middleware/motor_control",
+					"jsonFile" : "directory-middleware.motor_control-debug-b762bf6e7f434d112f06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/middleware/motor_control"
+				},
+				{
+					"build" : "examples/lvgl_examples/lvgl_sdk",
+					"jsonFile" : "directory-examples.lvgl_examples.lvgl_sdk-debug-2f05cb9b11abd5b2aff1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/lvgl_examples/lvgl_sdk"
+				},
+				{
+					"build" : "middleware/mcuboot_opensource",
+					"jsonFile" : "directory-middleware.mcuboot_opensource-debug-e0683db8ece62494bff7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/middleware/mcuboot_opensource"
+				},
+				{
+					"build" : "middleware/freemaster/mcux",
+					"jsonFile" : "directory-middleware.freemaster.mcux-debug-65a7f579577d4ff28ed4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/middleware/freemaster/mcux"
+				},
+				{
+					"build" : "middleware/safety_iec60730b",
+					"jsonFile" : "directory-middleware.safety_iec60730b-debug-43f2d58b200c57fe924a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/middleware/safety_iec60730b"
+				},
+				{
+					"build" : "middleware/cadence",
+					"jsonFile" : "directory-middleware.cadence-debug-f70604b785125b8a5c1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/middleware/cadence"
+				},
+				{
+					"build" : "middleware/emwin",
+					"jsonFile" : "directory-middleware.emwin-debug-f8824bf56334c4147360.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/middleware/emwin"
+				},
+				{
+					"build" : "middleware/canopennode",
+					"jsonFile" : "directory-middleware.canopennode-debug-c5a49fdf63eb23b742fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/middleware/canopennode"
+				},
+				{
+					"build" : "middleware/mstp-lib",
+					"jsonFile" : "directory-middleware.mstp-lib-debug-f5d363b34a7e44f59598.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/middleware/mstp-lib"
+				}
+			],
+			"name" : "debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196,
+						197,
+						198,
+						199
+					],
+					"name" : "hello_world",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "attach::@dac8187c30f26610133b",
+					"jsonFile" : "target-attach-debug-23d9691d98f0de13ec18.json",
+					"name" : "attach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "dashboard::@7f73aa44d57b7279e1d5",
+					"jsonFile" : "target-dashboard-debug-0fb1d0b37b896a043b30.json",
+					"name" : "dashboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "debug::@dac8187c30f26610133b",
+					"jsonFile" : "target-debug-debug-523626341645e6431caa.json",
+					"name" : "debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "debugserver::@dac8187c30f26610133b",
+					"jsonFile" : "target-debugserver-debug-bb5a3c185d7b12ecabe4.json",
+					"name" : "debugserver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "flash::@dac8187c30f26610133b",
+					"jsonFile" : "target-flash-debug-62b6ce21608c86688e66.json",
+					"name" : "flash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "footprint::@7f73aa44d57b7279e1d5",
+					"jsonFile" : "target-footprint-debug-05e95c0e6fd9ea8a6c2d.json",
+					"name" : "footprint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "guiconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-guiconfig-debug-76895390e799270aa76c.json",
+					"name" : "guiconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hardenconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hardenconfig-debug-001f3aa85f9a56de0d53.json",
+					"name" : "hardenconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_world::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_world-debug-897db5845c18d76c2a5e.json",
+					"name" : "hello_world",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manifest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manifest-debug-0c0fcd5d5bb7bc03dac8.json",
+					"name" : "manifest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "menuconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-menuconfig-debug-f629f8440493938f843d.json",
+					"name" : "menuconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pristine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pristine-debug-b5c51f9365e5e07f411f.json",
+					"name" : "pristine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ram_plot::@7f73aa44d57b7279e1d5",
+					"jsonFile" : "target-ram_plot-debug-2ced29c4d88cd8125c89.json",
+					"name" : "ram_plot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ram_report::@7f73aa44d57b7279e1d5",
+					"jsonFile" : "target-ram_report-debug-bdbf964e12ee53e5b2df.json",
+					"name" : "ram_report",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "rom_plot::@7f73aa44d57b7279e1d5",
+					"jsonFile" : "target-rom_plot-debug-e3eee1aeaa3c222d7564.json",
+					"name" : "rom_plot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "rom_report::@7f73aa44d57b7279e1d5",
+					"jsonFile" : "target-rom_report-debug-0c6b136371adccedb0b5.json",
+					"name" : "rom_report",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "runners_yaml_props_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-runners_yaml_props_target-debug-41656bfa3859d2d58e59.json",
+					"name" : "runners_yaml_props_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "standalone_project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-standalone_project-debug-90be0921659ea037d222.json",
+					"name" : "standalone_project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traceconfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traceconfig-debug-a6bc00cdfa67bf0b885e.json",
+					"name" : "traceconfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "usage::@8ec01537637d7c5065b0",
+					"jsonFile" : "target-usage-debug-b2848803665584010c4e.json",
+					"name" : "usage",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world/debug",
+		"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

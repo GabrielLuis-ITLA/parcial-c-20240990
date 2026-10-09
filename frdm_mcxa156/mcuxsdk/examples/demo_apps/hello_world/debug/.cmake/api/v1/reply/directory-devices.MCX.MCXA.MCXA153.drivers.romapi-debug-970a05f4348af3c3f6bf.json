@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "devices/MCX/MCXA/MCXA153/drivers/romapi",
+		"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA153/drivers/romapi"
+	}
+}

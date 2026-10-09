@@ -1,0 +1,35 @@
+{
+  "version": 7,
+  "cmakeMinimumRequired": {
+    "major": 3
+  },
+  "configurePresets": [
+    {
+      "name": "debug-env",
+      "displayName": "debug-env",
+      "hidden": true,
+      "environment": {
+        "ARMGCC_DIR": "/Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi",
+        "SdkRootDirPath": "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156",
+        "MCUX_VENV_PATH": "/Users/gabrielluis/.mcuxpressotools/.mcux-venv-3.12/bin",
+        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$penv{PATH}",
+        "POSTPROCESS_UTILITY": "/Users/gabrielluis/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      },
+      "cacheVariables": {}
+    },
+    {
+      "name": "release-env",
+      "displayName": "release-env",
+      "hidden": true,
+      "environment": {
+        "ARMGCC_DIR": "/Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi",
+        "SdkRootDirPath": "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156",
+        "MCUX_VENV_PATH": "/Users/gabrielluis/.mcuxpressotools/.mcux-venv-3.12/bin",
+        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$penv{PATH}"
+      },
+      "cacheVariables": {}
+    }
+  ],
+  "buildPresets": []
+}

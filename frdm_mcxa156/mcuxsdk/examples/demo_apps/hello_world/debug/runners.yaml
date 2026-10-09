@@ -1,0 +1,29 @@
+# Available runners configured by board.cmake.
+runners:
+- linkserver
+- jlink
+
+# Default flash runner if --runner is not given.
+flash-runner: linkserver
+
+# Default debug runner if --runner is not given.
+debug-runner: linkserver
+
+# Common runner configuration values.
+config:
+  board_dir: /Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156
+  # Build outputs:
+  bin_file: hello_world.bin
+  elf_file: hello_world.elf
+  hex_file: hello_world.hex
+  # Host tools:
+  gdb: /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/arm-none-eabi-gdb
+
+# Runner specific arguments
+args:
+  linkserver:
+    - --dt-flash=y
+    - --device=MCXA156:FRDM-MCXA156
+  jlink:
+    - --dt-flash=y
+    - --device=MCXA156

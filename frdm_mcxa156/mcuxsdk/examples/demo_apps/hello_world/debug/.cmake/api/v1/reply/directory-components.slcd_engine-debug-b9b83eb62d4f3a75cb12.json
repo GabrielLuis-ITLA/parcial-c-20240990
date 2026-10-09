@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "components/slcd_engine",
+		"source" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/slcd_engine"
+	}
+}

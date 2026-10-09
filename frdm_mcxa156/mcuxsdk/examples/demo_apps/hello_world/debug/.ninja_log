@@ -1,0 +1,24 @@
+# ninja log v7
+11	106	1791564690453280441	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/gcc/startup_MCXA156.S.obj	a3dfe546559e4344
+12	306	1791564690454524677	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/board.c.obj	25c8a271c9123178
+12	318	1791564690454170016	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.c.obj	135c03e5b7b85e93
+15	324	1791564690457860432	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common/fsl_common_arm.c.obj	6e54b7cbc254d5fb
+13	327	1791564690455265068	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/pin_mux.c.obj	662ffed131ef024d
+10	339	1791564690452585243	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/system_MCXA156.c.obj	ab3f43f7bfcb8977
+15	341	1791564690457189149	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common/fsl_common.c.obj	1daa46cf6f7a2fd8
+14	365	1791564690456328735	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/hardware_init.c.obj	95e6811c208cc938
+365	423	1791564690807125661	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj	b446344a5a4a4dfb
+341	435	1791564690783223083	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_sbrk.c.obj	ed87faa1c8569d70
+12	453	1791564690454912642	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/clock_config.c.obj	8bc715990a8f3d6e
+339	454	1791564690781326363	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_syscall_stub.c.obj	2e1438a8269d6777
+423	480	1791564690865442618	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memset.S.obj	88f7297b731fb8ce
+106	490	1791564690548623282	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj	50a9e4a8e5f70882
+11	576	1791564690453762537	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c.obj	1b4b7abb0b2dfe31
+325	579	1791564690767022853	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert/fsl_assert.c.obj	5c81aa37d1338a5f
+327	628	1791564690769142322	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_lite/fsl_debug_console.c.obj	58367b274e55f39c
+455	633	1791564690897151436	CMakeFiles/hello_world.dir/hello_world.c.obj	e12d563595620cda
+318	650	1791564690760690681	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj	7f8473f952c71f7f
+453	657	1791564690895297480	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj	3e34e8e066e3f3f
+435	688	1791564690877242157	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/str/fsl_str.c.obj	d17de79b3d3cd91
+307	729	1791564690749460224	CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj	6d0e579c61c413e3
+729	826	1791564691171757297	hello_world.elf	f8292ef5bfb28a41
