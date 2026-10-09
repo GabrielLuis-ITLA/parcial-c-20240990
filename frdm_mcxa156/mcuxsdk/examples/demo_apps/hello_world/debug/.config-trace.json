@@ -1547,6 +1547,7 @@
     "y",
     "select",
     [
+      "MCUX_COMPONENT_driver.ctimer && MCUX_HAS_COMPONENT_driver.ctimer",
       "MCUX_COMPONENT_driver.gpio && MCUX_HAS_COMPONENT_driver.gpio",
       "MCUX_COMPONENT_driver.lpuart && MCUX_HAS_COMPONENT_driver.lpuart",
       "MCUX_COMPONENT_driver.mcx_spc && MCUX_HAS_COMPONENT_driver.mcx_spc",
@@ -1590,9 +1591,12 @@
     "CONFIG_MCUX_COMPONENT_driver.ctimer",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "y",
+    "assign",
+    [
+      "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world/prj.conf",
+      3
+    ]
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.dac_1",

@@ -527,6 +527,8 @@ _Python3_EXECUTABLE:INTERNAL=/Users/gabrielluis/.mcuxpressotools/.mcux-venv-3.12
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;12;64;<none>;cpython-312-darwin.so;abi3;/Users/gabrielluis/.mcuxpressotools/python-3.12/lib/python3.12;/Users/gabrielluis/.mcuxpressotools/.mcux-venv-3.12/lib/python3.12;/Users/gabrielluis/.mcuxpressotools/.mcux-venv-3.12/lib/python3.12/site-packages;/Users/gabrielluis/.mcuxpressotools/.mcux-venv-3.12/lib/python3.12/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=f96e5746b3229f2b8100b04ce5b5d1a2
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 

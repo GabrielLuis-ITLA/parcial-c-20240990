@@ -42,6 +42,7 @@
 			"/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_common/project_segments/common/prjseg.cmake",
 			"/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/CMakeLists.txt",
 			"/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common/CMakeLists.txt",
+			"/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/CMakeLists.txt",
 			"/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/CMakeLists.txt",
 			"/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/CMakeLists.txt",
 			"/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/CMakeLists.txt",
@@ -373,7 +374,7 @@
 			{
 				"command" : 11,
 				"file" : 16,
-				"line" : 28,
+				"line" : 10,
 				"parent" : 58
 			},
 			{
@@ -394,7 +395,7 @@
 			{
 				"command" : 11,
 				"file" : 17,
-				"line" : 10,
+				"line" : 28,
 				"parent" : 62
 			},
 			{
@@ -436,7 +437,7 @@
 			{
 				"command" : 11,
 				"file" : 19,
-				"line" : 11,
+				"line" : 10,
 				"parent" : 70
 			},
 			{
@@ -499,7 +500,7 @@
 			{
 				"command" : 11,
 				"file" : 22,
-				"line" : 50,
+				"line" : 11,
 				"parent" : 82
 			},
 			{
@@ -515,31 +516,30 @@
 				"parent" : 84
 			},
 			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 367,
-				"parent" : 1
+				"file" : 23
 			},
 			{
+				"command" : 11,
 				"file" : 23,
+				"line" : 50,
 				"parent" : 86
 			},
 			{
-				"command" : 13,
-				"file" : 23,
-				"line" : 555,
+				"command" : 10,
+				"file" : 5,
+				"line" : 424,
 				"parent" : 87
 			},
 			{
-				"command" : 12,
+				"command" : 9,
 				"file" : 5,
-				"line" : 232,
+				"line" : 379,
 				"parent" : 88
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 374,
+				"line" : 367,
 				"parent" : 1
 			},
 			{
@@ -549,7 +549,7 @@
 			{
 				"command" : 13,
 				"file" : 24,
-				"line" : 64,
+				"line" : 555,
 				"parent" : 91
 			},
 			{
@@ -557,6 +557,28 @@
 				"file" : 5,
 				"line" : 232,
 				"parent" : 92
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 374,
+				"parent" : 1
+			},
+			{
+				"file" : 25,
+				"parent" : 94
+			},
+			{
+				"command" : 13,
+				"file" : 25,
+				"line" : 64,
+				"parent" : 95
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 232,
+				"parent" : 96
 			},
 			{
 				"command" : 13,
@@ -568,277 +590,277 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 94
+				"parent" : 98
 			},
 			{
 				"command" : 13,
@@ -850,13 +872,13 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 141
+				"parent" : 145
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 141
+				"parent" : 145
 			},
 			{
 				"command" : 13,
@@ -868,7 +890,7 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 144
+				"parent" : 148
 			},
 			{
 				"command" : 13,
@@ -880,13 +902,13 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 146
+				"parent" : 150
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 146
+				"parent" : 150
 			},
 			{
 				"command" : 13,
@@ -898,7 +920,7 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 149
+				"parent" : 153
 			},
 			{
 				"command" : 13,
@@ -910,13 +932,13 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 151
+				"parent" : 155
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 151
+				"parent" : 155
 			},
 			{
 				"command" : 13,
@@ -928,13 +950,13 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 154
+				"parent" : 158
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 154
+				"parent" : 158
 			},
 			{
 				"command" : 13,
@@ -946,13 +968,13 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 157
+				"parent" : 161
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 157
+				"parent" : 161
 			},
 			{
 				"command" : 13,
@@ -964,7 +986,7 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 160
+				"parent" : 164
 			},
 			{
 				"command" : 13,
@@ -976,13 +998,13 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 162
+				"parent" : 166
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 162
+				"parent" : 166
 			},
 			{
 				"command" : 13,
@@ -994,13 +1016,13 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 165
+				"parent" : 169
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 165
+				"parent" : 169
 			},
 			{
 				"command" : 13,
@@ -1012,13 +1034,13 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 168
+				"parent" : 172
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 168
+				"parent" : 172
 			},
 			{
 				"command" : 13,
@@ -1030,13 +1052,13 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 171
+				"parent" : 175
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 171
+				"parent" : 175
 			},
 			{
 				"command" : 13,
@@ -1048,13 +1070,13 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 174
+				"parent" : 178
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 174
+				"parent" : 178
 			},
 			{
 				"command" : 13,
@@ -1066,13 +1088,13 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 177
+				"parent" : 181
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 177
+				"parent" : 181
 			},
 			{
 				"command" : 13,
@@ -1084,13 +1106,13 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 180
+				"parent" : 184
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 180
+				"parent" : 184
 			},
 			{
 				"command" : 13,
@@ -1102,49 +1124,49 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 183
+				"parent" : 187
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 183
+				"parent" : 187
 			},
 			{
 				"command" : 13,
 				"file" : 16,
-				"line" : 26,
+				"line" : 8,
 				"parent" : 58
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 186
+				"parent" : 190
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 186
+				"parent" : 190
 			},
 			{
 				"command" : 13,
 				"file" : 17,
-				"line" : 8,
+				"line" : 26,
 				"parent" : 62
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 189
+				"parent" : 193
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 189
+				"parent" : 193
 			},
 			{
 				"command" : 13,
@@ -1156,25 +1178,25 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 192
+				"parent" : 196
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 232,
+				"parent" : 196
 			},
 			{
 				"command" : 13,
 				"file" : 19,
-				"line" : 6,
+				"line" : 8,
 				"parent" : 70
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 194
-			},
-			{
-				"command" : 12,
-				"file" : 5,
-				"line" : 232,
-				"parent" : 194
+				"parent" : 199
 			},
 			{
 				"command" : 13,
@@ -1186,58 +1208,13 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 197
-			},
-			{
-				"command" : 12,
-				"file" : 5,
-				"line" : 232,
-				"parent" : 197
-			},
-			{
-				"file" : 25
-			},
-			{
-				"command" : 13,
-				"file" : 25,
-				"line" : 8,
-				"parent" : 200
+				"parent" : 201
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
 				"parent" : 201
-			},
-			{
-				"command" : 13,
-				"file" : 25,
-				"line" : 14,
-				"parent" : 200
-			},
-			{
-				"command" : 12,
-				"file" : 5,
-				"line" : 232,
-				"parent" : 203
-			},
-			{
-				"command" : 13,
-				"file" : 25,
-				"line" : 19,
-				"parent" : 200
-			},
-			{
-				"command" : 12,
-				"file" : 5,
-				"line" : 232,
-				"parent" : 205
-			},
-			{
-				"command" : 12,
-				"file" : 5,
-				"line" : 232,
-				"parent" : 205
 			},
 			{
 				"command" : 13,
@@ -1249,7 +1226,22 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 208
+				"parent" : 204
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 232,
+				"parent" : 204
+			},
+			{
+				"file" : 26
+			},
+			{
+				"command" : 13,
+				"file" : 26,
+				"line" : 8,
+				"parent" : 207
 			},
 			{
 				"command" : 12,
@@ -1259,21 +1251,69 @@
 			},
 			{
 				"command" : 13,
+				"file" : 26,
+				"line" : 14,
+				"parent" : 207
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 232,
+				"parent" : 210
+			},
+			{
+				"command" : 13,
+				"file" : 26,
+				"line" : 19,
+				"parent" : 207
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 232,
+				"parent" : 212
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 232,
+				"parent" : 212
+			},
+			{
+				"command" : 13,
 				"file" : 22,
-				"line" : 45,
+				"line" : 6,
 				"parent" : 82
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 211
+				"parent" : 215
 			},
 			{
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 211
+				"parent" : 215
+			},
+			{
+				"command" : 13,
+				"file" : 23,
+				"line" : 45,
+				"parent" : 86
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 232,
+				"parent" : 218
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 232,
+				"parent" : 218
 			},
 			{
 				"command" : 13,
@@ -1285,7 +1325,7 @@
 				"command" : 12,
 				"file" : 5,
 				"line" : 232,
-				"parent" : 214
+				"parent" : 221
 			}
 		]
 	},
@@ -1334,34 +1374,38 @@
 				},
 				{
 					"backtrace" : 57,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer"
 				},
 				{
 					"backtrace" : 61,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio"
 				},
 				{
 					"backtrace" : 65,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart"
 				},
 				{
 					"backtrace" : 69,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/port"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc"
 				},
 				{
 					"backtrace" : 73,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/port"
 				},
 				{
 					"backtrace" : 77,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_lite"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert"
 				},
 				{
 					"backtrace" : 81,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/str"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_lite"
 				},
 				{
 					"backtrace" : 85,
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/str"
+				},
+				{
+					"backtrace" : 89,
 					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart"
 				}
 			],
@@ -1380,13 +1424,14 @@
 				76,
 				78,
 				80,
-				83,
+				82,
 				85,
-				86,
 				87,
-				91,
+				88,
+				89,
 				93,
-				94
+				95,
+				96
 			]
 		},
 		{
@@ -1432,34 +1477,38 @@
 				},
 				{
 					"backtrace" : 57,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer"
 				},
 				{
 					"backtrace" : 61,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio"
 				},
 				{
 					"backtrace" : 65,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart"
 				},
 				{
 					"backtrace" : 69,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/port"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc"
 				},
 				{
 					"backtrace" : 73,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/port"
 				},
 				{
 					"backtrace" : 77,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_lite"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert"
 				},
 				{
 					"backtrace" : 81,
-					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/str"
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_lite"
 				},
 				{
 					"backtrace" : 85,
+					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/str"
+				},
+				{
+					"backtrace" : 89,
 					"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart"
 				}
 			],
@@ -1467,8 +1516,8 @@
 			"sourceIndexes" : 
 			[
 				50,
-				88,
-				89
+				90,
+				91
 			]
 		}
 	],
@@ -1590,10 +1639,11 @@
 				77,
 				79,
 				81,
-				82,
+				83,
 				84,
-				90,
-				92
+				86,
+				92,
+				94
 			]
 		},
 		{
@@ -1612,13 +1662,14 @@
 				76,
 				78,
 				80,
-				83,
+				82,
 				85,
-				86,
 				87,
-				91,
+				88,
+				89,
 				93,
-				94
+				95,
+				96
 			]
 		},
 		{
@@ -1626,506 +1677,517 @@
 			"sourceIndexes" : 
 			[
 				50,
-				88,
-				89
+				90,
+				91
 			]
 		}
 	],
 	"sources" : 
 	[
 		{
-			"backtrace" : 89,
+			"backtrace" : 93,
 			"path" : "debug/mcux_config.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 93,
+			"backtrace" : 97,
 			"path" : "debug/mcuxsdk_version.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 95,
+			"backtrace" : 99,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/fsl_device_registers.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 96,
+			"backtrace" : 100,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/MCXA156.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 97,
+			"backtrace" : 101,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/MCXA156_features.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 98,
+			"backtrace" : 102,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/MCXA156_COMMON.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 99,
+			"backtrace" : 103,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_ADC.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 100,
+			"backtrace" : 104,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_AOI.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 101,
+			"backtrace" : 105,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_CAN.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 102,
+			"backtrace" : 106,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_CDOG.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 103,
+			"backtrace" : 107,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_CMC.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 104,
+			"backtrace" : 108,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_CRC.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 105,
+			"backtrace" : 109,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_CTIMER.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 106,
+			"backtrace" : 110,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_DEBUGMAILBOX.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 107,
+			"backtrace" : 111,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_DMA.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 108,
+			"backtrace" : 112,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_EIM.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 109,
+			"backtrace" : 113,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_EQDC.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 110,
+			"backtrace" : 114,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_ERM.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 111,
+			"backtrace" : 115,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_FLEXIO.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 112,
+			"backtrace" : 116,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_FMC.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 113,
+			"backtrace" : 117,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_FMU.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 114,
+			"backtrace" : 118,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_FMUTEST.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 115,
+			"backtrace" : 119,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_FREQME.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 116,
+			"backtrace" : 120,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_GLIKEY.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 117,
+			"backtrace" : 121,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_GPIO.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 118,
+			"backtrace" : 122,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_I3C.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 119,
+			"backtrace" : 123,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_INPUTMUX.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 120,
+			"backtrace" : 124,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_LPCMP.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 121,
+			"backtrace" : 125,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_LPDAC.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 122,
+			"backtrace" : 126,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_LPI2C.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 123,
+			"backtrace" : 127,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_LPSPI.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 124,
+			"backtrace" : 128,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_LPTMR.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 125,
+			"backtrace" : 129,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_LPUART.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 126,
+			"backtrace" : 130,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_MRCC.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 127,
+			"backtrace" : 131,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_OPAMP.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 128,
+			"backtrace" : 132,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_OSTIMER.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 129,
+			"backtrace" : 133,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_PORT.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 130,
+			"backtrace" : 134,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_PWM.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 131,
+			"backtrace" : 135,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_SCG.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 132,
+			"backtrace" : 136,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_SPC.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 133,
+			"backtrace" : 137,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_SYSCON.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 134,
+			"backtrace" : 138,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_TRDC.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 135,
+			"backtrace" : 139,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_USB.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 136,
+			"backtrace" : 140,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_UTICK.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 137,
+			"backtrace" : 141,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_VBAT.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 138,
+			"backtrace" : 142,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_WAKETIMER.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 139,
+			"backtrace" : 143,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_WUU.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 140,
+			"backtrace" : 144,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/periph1/PERI_WWDT.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 142,
+			"backtrace" : 146,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/system_MCXA156.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 143,
+			"backtrace" : 147,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/system_MCXA156.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 145,
+			"backtrace" : 149,
 			"compileGroupIndex" : 1,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/gcc/startup_MCXA156.S",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 147,
+			"backtrace" : 151,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 148,
+			"backtrace" : 152,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 150,
+			"backtrace" : 154,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_inputmux_connections.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 152,
+			"backtrace" : 156,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 153,
+			"backtrace" : 157,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 155,
+			"backtrace" : 159,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/cmsis_compiler.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 156,
+			"backtrace" : 160,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/cmsis_version.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 158,
+			"backtrace" : 162,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/cmsis_gcc.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 159,
+			"backtrace" : 163,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 161,
+			"backtrace" : 165,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/core_cm33.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 163,
+			"backtrace" : 167,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/m-profile/armv8m_mpu.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 164,
+			"backtrace" : 168,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/arch/arm/CMSIS/Core/Include/tz_context.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 166,
+			"backtrace" : 170,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/board.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 167,
+			"backtrace" : 171,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/board.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 169,
+			"backtrace" : 173,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/clock_config.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 170,
+			"backtrace" : 174,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/clock_config.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 172,
+			"backtrace" : 176,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/pin_mux.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 173,
+			"backtrace" : 177,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/pin_mux.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 175,
-			"compileGroupIndex" : 0,
-			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/hardware_init.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 176,
-			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/app.h",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 178,
-			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common/fsl_common.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 179,
 			"compileGroupIndex" : 0,
+			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/hardware_init.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 180,
+			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/app.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 182,
+			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common/fsl_common.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 183,
+			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common/fsl_common.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 181,
+			"backtrace" : 185,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common/fsl_common_arm.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 182,
+			"backtrace" : 186,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common/fsl_common_arm.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 184,
+			"backtrace" : 188,
+			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 189,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 191,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 185,
+			"backtrace" : 192,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 187,
+			"backtrace" : 194,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 188,
+			"backtrace" : 195,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 190,
+			"backtrace" : 197,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/fsl_spc.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 191,
+			"backtrace" : 198,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/fsl_spc.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 193,
+			"backtrace" : 200,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/port/fsl_port.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 195,
+			"backtrace" : 202,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert/fsl_assert.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 196,
+			"backtrace" : 203,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert/fsl_assert.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 198,
+			"backtrace" : 205,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_lite/fsl_debug_console.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 199,
+			"backtrace" : 206,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_lite/fsl_debug_console.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 202,
+			"backtrace" : 209,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_syscall_stub.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 204,
+			"backtrace" : 211,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_sbrk.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 206,
+			"backtrace" : 213,
 			"compileGroupIndex" : 1,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memcpy.S",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 207,
+			"backtrace" : 214,
 			"compileGroupIndex" : 1,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memset.S",
 			"sourceGroupIndex" : 2
 		},
 		{
-			"backtrace" : 209,
+			"backtrace" : 216,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/str/fsl_str.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 210,
+			"backtrace" : 217,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/str/fsl_str.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 212,
+			"backtrace" : 219,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_uart.h",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 213,
+			"backtrace" : 220,
 			"compileGroupIndex" : 0,
 			"path" : "/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 215,
+			"backtrace" : 222,
 			"compileGroupIndex" : 0,
 			"path" : "hello_world.c",
 			"sourceGroupIndex" : 1
