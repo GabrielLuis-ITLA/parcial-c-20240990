@@ -4,6 +4,7 @@
 #include "pin_mux.h"
 #include "clock_config.h"
 #include "fsl_gpio.h"
+#include "fsl_port.h"
 #include "fsl_ctimer.h"
 #include "fsl_lpuart.h"
 #include "fsl_reset.h"
@@ -76,6 +77,32 @@ void Demo_SetPwmDuty(uint8_t duty)
     CTIMER_UpdatePwmDutycycle(APP_PWM_TIMER, APP_PWM_CHANNEL, APP_PWM_PERIOD_CH, duty);
 }
 
+#define APP_SW2_GPIO GPIO1
+#define APP_SW2_PIN 7U
+#define APP_SW2_IRQ GPIO1_IRQn
+
+void GPIO1_IRQHandler(void)
+{
+    uint32_t flags = GPIO_PortGetInterruptFlags(APP_SW2_GPIO);
+    GPIO_PortClearInterruptFlags(APP_SW2_GPIO, flags);
+    
+    if (flags & (1U << APP_SW2_PIN))
+    {
+        g_buttonEdgePending = 1U;
+    }
+    SDK_ISR_EXIT_BARRIER;
+}
+
+void Demo_ButtonInit(void)
+{
+    gpio_pin_config_t sw_config = {kGPIO_DigitalInput, 0};
+    
+    GPIO_PinInit(APP_SW2_GPIO, APP_SW2_PIN, &sw_config);
+    GPIO_SetPinInterruptConfig(APP_SW2_GPIO, APP_SW2_PIN, kGPIO_InterruptFallingEdge);
+    
+    EnableIRQ(APP_SW2_IRQ);
+}
+
 int main(void)
 {
     BOARD_InitBootPins();
@@ -90,21 +117,48 @@ int main(void)
     CLOCK_EnableClock(kCLOCK_GateCTIMER0);
     
     Demo_TickInit(12000000U);
-    Demo_PwmInit(); 
+    Demo_PwmInit();
+    Demo_ButtonInit();
 
     uint32_t lastService = g_ms;
     uint32_t testCounter = 0;
     uint8_t testDuty = 10U; 
     
+    uint32_t debounceCounter = 0;
+    uint8_t isDebouncing = 0;
+    
     for (;;)
     {
         uint32_t now = g_ms;
         
+        if (g_buttonEdgePending)
+        {
+            g_buttonEdgePending = 0U;
+            if (!isDebouncing)
+            {
+                isDebouncing = 1;
+                debounceCounter = 0;
+            }
+        }
+        
         if ((uint32_t)(now - lastService) >= 1U)
         {
             lastService = now;
-            testCounter++;
+            
+            if (isDebouncing)
+            {
+                debounceCounter++;
+                if (debounceCounter >= 30U)
+                {
+                    isDebouncing = 0;
+                    if (GPIO_PinRead(APP_SW2_GPIO, APP_SW2_PIN) == 0U)
+                    {
+                        PRINTF("Boton presionado correctamente (antirrebote 30ms)\r\n");
+                    }
+                }
+            }
 
+            testCounter++;
             if (testCounter >= 1000U)
             {
                 Demo_SetPwmDuty(testDuty);
