@@ -15,6 +15,12 @@
 volatile uint32_t g_ms = 0;
 volatile uint32_t g_buttonEdgePending = 0U;
 
+typedef enum {
+    STATE_MANUAL,
+    STATE_AUTO,
+    STATE_PAUSE
+} app_state_t;
+
 void Demo_TickCallback(uint32_t flags)
 {
     if (flags & kCTIMER_Match0Flag)
@@ -98,7 +104,7 @@ void Demo_ButtonInit(void)
     gpio_pin_config_t sw_config = {kGPIO_DigitalInput, 0};
     
     GPIO_PinInit(APP_SW2_GPIO, APP_SW2_PIN, &sw_config);
-    GPIO_SetPinInterruptConfig(APP_SW2_GPIO, APP_SW2_PIN, kGPIO_InterruptFallingEdge);
+    GPIO_SetPinInterruptConfig(APP_SW2_GPIO, APP_SW2_PIN, kGPIO_InterruptEitherEdge);
     
     EnableIRQ(APP_SW2_IRQ);
 }
@@ -120,13 +126,26 @@ int main(void)
     Demo_PwmInit();
     Demo_ButtonInit();
 
+    app_state_t currentState = STATE_MANUAL;
+    app_state_t prevState = STATE_MANUAL;
+    
+    uint8_t currentDuty = 25U;
+    uint8_t savedManualDuty = 25U;
+    uint8_t autoDirection = 1U;
+    uint32_t autoTimer = 0U;
+
     uint32_t lastService = g_ms;
-    uint32_t testCounter = 0;
-    uint8_t testDuty = 10U; 
+    uint32_t debounceCounter = 0U;
+    uint8_t isDebouncing = 0U;
+    uint8_t targetEdge = 0U;
+    uint8_t buttonActive = 0U;
+    uint32_t pressDuration = 0U;
     
-    uint32_t debounceCounter = 0;
-    uint8_t isDebouncing = 0;
-    
+    uint8_t shortPressFlag = 0U;
+    uint8_t longPressFlag = 0U;
+
+    Demo_SetPwmDuty(currentDuty);
+
     for (;;)
     {
         uint32_t now = g_ms;
@@ -136,8 +155,9 @@ int main(void)
             g_buttonEdgePending = 0U;
             if (!isDebouncing)
             {
-                isDebouncing = 1;
-                debounceCounter = 0;
+                isDebouncing = 1U;
+                debounceCounter = 0U;
+                targetEdge = GPIO_PinRead(APP_SW2_GPIO, APP_SW2_PIN);
             }
         }
         
@@ -150,24 +170,101 @@ int main(void)
                 debounceCounter++;
                 if (debounceCounter >= 30U)
                 {
-                    isDebouncing = 0;
-                    if (GPIO_PinRead(APP_SW2_GPIO, APP_SW2_PIN) == 0U)
+                    isDebouncing = 0U;
+                    if (GPIO_PinRead(APP_SW2_GPIO, APP_SW2_PIN) == targetEdge)
                     {
-                        PRINTF("Boton presionado correctamente (antirrebote 30ms)\r\n");
+                        if (targetEdge == 0U)
+                        {
+                            buttonActive = 1U;
+                            pressDuration = 0U;
+                        }
+                        else
+                        {
+                            if (buttonActive)
+                            {
+                                buttonActive = 0U;
+                                if (pressDuration >= 30U && pressDuration < 1500U)
+                                {
+                                    shortPressFlag = 1U;
+                                }
+                            }
+                        }
                     }
                 }
             }
 
-            testCounter++;
-            if (testCounter >= 1000U)
+            if (buttonActive && !isDebouncing)
             {
-                Demo_SetPwmDuty(testDuty);
-                PRINTF("Duty Cycle actual: %d%%\r\n", testDuty);
-                
-                if (testDuty == 10U) { testDuty = 90U; }
-                else { testDuty = 10U; }
-                
-                testCounter = 0;
+                pressDuration++;
+                if (pressDuration == 1500U)
+                {
+                    longPressFlag = 1U;
+                }
+            }
+
+            if (shortPressFlag)
+            {
+                shortPressFlag = 0U;
+                if (currentState == STATE_MANUAL)
+                {
+                    currentState = STATE_AUTO;
+                    currentDuty = 10U;
+                    autoDirection = 1U;
+                    autoTimer = 0U;
+                    Demo_SetPwmDuty(currentDuty);
+                    PRINTF("Modo: AUTO\r\n");
+                }
+                else if (currentState == STATE_AUTO)
+                {
+                    currentState = STATE_MANUAL;
+                    currentDuty = savedManualDuty;
+                    Demo_SetPwmDuty(currentDuty);
+                    PRINTF("Modo: MANUAL\r\n");
+                }
+            }
+
+            if (longPressFlag)
+            {
+                longPressFlag = 0U;
+                if (currentState != STATE_PAUSE)
+                {
+                    prevState = currentState;
+                    currentState = STATE_PAUSE;
+                    Demo_SetPwmDuty(0U);
+                    PRINTF("Modo: PAUSA\r\n");
+                }
+                else
+                {
+                    currentState = prevState;
+                    Demo_SetPwmDuty(currentDuty);
+                    PRINTF("Modo: RESUME\r\n");
+                }
+            }
+
+            if (currentState == STATE_AUTO)
+            {
+                autoTimer++;
+                if (autoTimer >= 20U)
+                {
+                    autoTimer = 0U;
+                    if (autoDirection == 1U)
+                    {
+                        currentDuty++;
+                        if (currentDuty >= 90U)
+                        {
+                            autoDirection = 0U;
+                        }
+                    }
+                    else
+                    {
+                        currentDuty--;
+                        if (currentDuty <= 10U)
+                        {
+                            autoDirection = 1U;
+                        }
+                    }
+                    Demo_SetPwmDuty(currentDuty);
+                }
             }
         }
     }

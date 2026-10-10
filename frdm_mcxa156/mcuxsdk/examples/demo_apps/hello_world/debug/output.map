@@ -922,7 +922,7 @@ LOAD /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_
                 0x00000000                __Vectors
                 0x000001a4                        . = ALIGN (0x4)
 
-.text           0x00000200     0x43b4
+.text           0x00000200     0x44c8
                 0x00000200                        . = ALIGN (0x4)
  *(.text)
  .text          0x00000200       0x7c /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/crt0.o
@@ -1414,203 +1414,203 @@ LOAD /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_
  .text.Demo_ButtonInit
                 0x000035b0       0x38 CMakeFiles/hello_world.dir/hello_world.c.obj
                 0x000035b0                Demo_ButtonInit
- .text.main     0x000035e8      0x104 CMakeFiles/hello_world.dir/hello_world.c.obj
+ .text.main     0x000035e8      0x228 CMakeFiles/hello_world.dir/hello_world.c.obj
                 0x000035e8                main
- .text.exit     0x000036ec       0x24 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-exit.o)
-                0x000036ec                exit
+ .text.exit     0x00003810       0x24 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-exit.o)
+                0x00003810                exit
  .text.__libc_init_array
-                0x00003710       0x48 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-init.o)
-                0x00003710                __libc_init_array
+                0x00003834       0x48 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-init.o)
+                0x00003834                __libc_init_array
  .text.__udivmoddi4
-                0x00003758      0x34c /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
-                0x00003758                __udivmoddi4
- .text._exit    0x00003aa4        0x4 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libnosys.a(_exit.o)
-                0x00003aa4                _exit
+                0x0000387c      0x34c /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x0000387c                __udivmoddi4
+ .text._exit    0x00003bc8        0x4 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libnosys.a(_exit.o)
+                0x00003bc8                _exit
  *(.rodata)
- .rodata        0x00003aa8       0x9e CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c.obj
- *fill*         0x00003b46        0x2 
- .rodata        0x00003b48       0x86 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.c.obj
- *fill*         0x00003bce        0x2 
- .rodata        0x00003bd0       0x63 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/pin_mux.c.obj
- *fill*         0x00003c33        0x1 
- .rodata        0x00003c34       0x94 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
- .rodata        0x00003cc8       0xaf CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
- *fill*         0x00003d77        0x1 
- .rodata        0x00003d78      0x2a2 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
- *fill*         0x0000401a        0x2 
- .rodata        0x0000401c       0xa7 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
- *fill*         0x000040c3        0x1 
- .rodata        0x000040c4       0x3e CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert/fsl_assert.c.obj
- *fill*         0x00004102        0x2 
- .rodata        0x00004104      0x124 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- .rodata        0x00004228       0xd6 CMakeFiles/hello_world.dir/hello_world.c.obj
+ .rodata        0x00003bcc       0x9e CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c.obj
+ *fill*         0x00003c6a        0x2 
+ .rodata        0x00003c6c       0x86 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.c.obj
+ *fill*         0x00003cf2        0x2 
+ .rodata        0x00003cf4       0x63 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/pin_mux.c.obj
+ *fill*         0x00003d57        0x1 
+ .rodata        0x00003d58       0x94 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
+ .rodata        0x00003dec       0xaf CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
+ *fill*         0x00003e9b        0x1 
+ .rodata        0x00003e9c      0x2a2 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
+ *fill*         0x0000413e        0x2 
+ .rodata        0x00004140       0xa7 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
+ *fill*         0x000041e7        0x1 
+ .rodata        0x000041e8       0x3e CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert/fsl_assert.c.obj
+ *fill*         0x00004226        0x2 
+ .rodata        0x00004228      0x124 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
+ .rodata        0x0000434c       0xc7 CMakeFiles/hello_world.dir/hello_world.c.obj
  *(.rodata*)
- *fill*         0x000042fe        0x2 
+ *fill*         0x00004413        0x1 
  .rodata.__func__.4
-                0x00004300       0x15 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c.obj
- *fill*         0x00004315        0x3 
+                0x00004414       0x15 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c.obj
+ *fill*         0x00004429        0x3 
  .rodata.__func__.2
-                0x00004318       0x12 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c.obj
- *fill*         0x0000432a        0x2 
+                0x0000442c       0x12 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c.obj
+ *fill*         0x0000443e        0x2 
  .rodata.__func__.1
-                0x0000432c       0x19 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.c.obj
- *fill*         0x00004345        0x3 
+                0x00004440       0x19 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.c.obj
+ *fill*         0x00004459        0x3 
  .rodata.__func__.0
-                0x00004348       0x1b CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.c.obj
- *fill*         0x00004363        0x1 
+                0x0000445c       0x1b CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.c.obj
+ *fill*         0x00004477        0x1 
  .rodata.__func__.0
-                0x00004364       0x12 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/pin_mux.c.obj
- *fill*         0x00004376        0x2 
+                0x00004478       0x12 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/pin_mux.c.obj
+ *fill*         0x0000448a        0x2 
  .rodata.s_ctimerBases
-                0x00004378       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
+                0x0000448c       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
  .rodata.s_ctimerClocks
-                0x0000438c       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
+                0x000044a0       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
  .rodata.s_ctimerResets
-                0x000043a0        0xa CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
- *fill*         0x000043aa        0x2 
+                0x000044b4        0xa CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
+ *fill*         0x000044be        0x2 
  .rodata.s_ctimerIRQ
-                0x000043ac        0x5 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
- *fill*         0x000043b1        0x3 
+                0x000044c0        0x5 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
+ *fill*         0x000044c5        0x3 
  .rodata.__func__.3
-                0x000043b4       0x13 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
- *fill*         0x000043c7        0x1 
+                0x000044c8       0x13 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
+ *fill*         0x000044db        0x1 
  .rodata.__func__.2
-                0x000043c8        0xc CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
+                0x000044dc        0xc CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
  .rodata.__func__.1
-                0x000043d4       0x18 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
+                0x000044e8       0x18 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
  .rodata.s_gpioBases
-                0x000043ec       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
+                0x00004500       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
  .rodata.s_gpioClockName
-                0x00004400       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
+                0x00004514       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
  .rodata.__func__.2
-                0x00004414       0x11 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
- *fill*         0x00004425        0x3 
+                0x00004528       0x11 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
+ *fill*         0x00004539        0x3 
  .rodata.__func__.1
-                0x00004428       0x15 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
- *fill*         0x0000443d        0x3 
+                0x0000453c       0x15 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
+ *fill*         0x00004551        0x3 
  .rodata.__func__.0
-                0x00004440        0xd CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
- *fill*         0x0000444d        0x3 
+                0x00004554        0xd CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
+ *fill*         0x00004561        0x3 
  .rodata.s_lpuartBases
-                0x00004450       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
+                0x00004564       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
  .rodata.s_lpuartClock
-                0x00004464       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
+                0x00004578       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
  .rodata.s_lpuartResets
-                0x00004478        0xa CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
- *fill*         0x00004482        0x2 
+                0x0000458c        0xa CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
+ *fill*         0x00004596        0x2 
  .rodata.__func__.25
-                0x00004484       0x13 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
- *fill*         0x00004497        0x1 
+                0x00004598       0x13 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
+ *fill*         0x000045ab        0x1 
  .rodata.__func__.18
-                0x00004498        0xc CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
+                0x000045ac        0xc CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
  .rodata.__func__.17
-                0x000044a4       0x18 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
+                0x000045b8       0x18 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
  .rodata.__func__.13
-                0x000044bc       0x15 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
- *fill*         0x000044d1        0x3 
+                0x000045d0       0x15 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
+ *fill*         0x000045e5        0x3 
  .rodata.__func__.11
-                0x000044d4       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
+                0x000045e8       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
  .rodata.__func__.5
-                0x000044e8       0x1a CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
- *fill*         0x00004502        0x2 
+                0x000045fc       0x1a CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
+ *fill*         0x00004616        0x2 
  .rodata.__func__.2
-                0x00004504       0x28 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
+                0x00004618       0x28 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
  .rodata.s_LpuartAdapterBase
-                0x0000452c       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
+                0x00004640       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
  .rodata.__func__.4
-                0x00004540        0xd CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- *fill*         0x0000454d        0x3 
+                0x00004654        0xd CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
+ *fill*         0x00004661        0x3 
  .rodata.__func__.2
-                0x00004550       0x18 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
+                0x00004664       0x18 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
  .rodata.__func__.1
-                0x00004568       0x15 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- *fill*         0x0000457d        0x3 
+                0x0000467c       0x15 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
+ *fill*         0x00004691        0x3 
  .rodata.__func__.0
-                0x00004580       0x1b CMakeFiles/hello_world.dir/hello_world.c.obj
+                0x00004694       0x1b CMakeFiles/hello_world.dir/hello_world.c.obj
  *(.glue_7)
- .glue_7        0x0000459b        0x0 linker stubs
+ .glue_7        0x000046af        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000459b        0x0 linker stubs
+ .glue_7t       0x000046af        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x0000459b        0x1 
- .eh_frame      0x0000459c        0x0 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ *fill*         0x000046af        0x1 
+ .eh_frame      0x000046b0        0x0 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
  *(.init)
- .init          0x0000459c        0x4 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crti.o
-                0x0000459c                _init
- .init          0x000045a0        0x8 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtn.o
+ .init          0x000046b0        0x4 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crti.o
+                0x000046b0                _init
+ .init          0x000046b4        0x8 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtn.o
  *(.fini)
- .fini          0x000045a8        0x4 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crti.o
-                0x000045a8                _fini
- .fini          0x000045ac        0x8 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtn.o
-                0x000045b4                        . = ALIGN (0x4)
+ .fini          0x000046bc        0x4 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crti.o
+                0x000046bc                _fini
+ .fini          0x000046c0        0x8 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtn.o
+                0x000046c8                        . = ALIGN (0x4)
 
-.vfp11_veneer   0x000045b4        0x0
- .vfp11_veneer  0x000045b4        0x0 linker stubs
+.vfp11_veneer   0x000046c8        0x0
+ .vfp11_veneer  0x000046c8        0x0 linker stubs
 
-.v4_bx          0x000045b4        0x0
- .v4_bx         0x000045b4        0x0 linker stubs
+.v4_bx          0x000046c8        0x0
+ .v4_bx         0x000046c8        0x0 linker stubs
 
-.iplt           0x000045b4        0x0
- .iplt          0x000045b4        0x0 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+.iplt           0x000046c8        0x0
+ .iplt          0x000046c8        0x0 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x000045b4        0x8
-                0x000045b4                        __exidx_start = .
+.ARM            0x000046c8        0x8
+                0x000046c8                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x000045b4        0x8 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/crt0.o
+ .ARM.exidx     0x000046c8        0x8 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/crt0.o
                                  0x10 (size before relaxing)
- .ARM.exidx     0x000045bc        0x0 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-strlen.o)
+ .ARM.exidx     0x000046d0        0x0 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__udivmoddi4
-                0x000045bc        0x0 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x000046d0        0x0 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x000045bc                        __exidx_end = .
+                0x000046d0                        __exidx_end = .
 
-.rel.dyn        0x000045bc        0x0
- .rel.iplt      0x000045bc        0x0 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+.rel.dyn        0x000046d0        0x0
+ .rel.iplt      0x000046d0        0x0 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.ctors          0x000045bc        0x0
-                0x000045bc                        __CTOR_LIST__ = .
+.ctors          0x000046d0        0x0
+                0x000046d0                        __CTOR_LIST__ = .
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-                0x000045bc                        __CTOR_END__ = .
+                0x000046d0                        __CTOR_END__ = .
 
-.dtors          0x000045bc        0x0
-                0x000045bc                        __DTOR_LIST__ = .
+.dtors          0x000046d0        0x0
+                0x000046d0                        __DTOR_LIST__ = .
  *crtbegin.o(.dtors)
  *crtbegin?.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x000045bc                        __DTOR_END__ = .
+                0x000046d0                        __DTOR_END__ = .
 
-.preinit_array  0x000045bc        0x0
-                0x000045bc                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000046d0        0x0
+                0x000046d0                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000045bc                        PROVIDE (__preinit_array_end = .)
+                0x000046d0                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x000045bc        0x4
-                0x000045bc                        PROVIDE (__init_array_start = .)
+.init_array     0x000046d0        0x4
+                0x000046d0                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000045bc        0x4 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
-                0x000045c0                        PROVIDE (__init_array_end = .)
+ .init_array    0x000046d0        0x4 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+                0x000046d4                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x000045c0        0x4
+.fini_array     0x000046d4        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000045c0        0x4 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ .fini_array    0x000046d4        0x4 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000045c4                        __etext = .
-                0x000045c4                        __DATA_ROM = .
+                0x000046d8                        __etext = .
+                0x000046d8                        __DATA_ROM = .
 
-.data           0x20000000        0xc load address 0x000045c4
+.data           0x20000000        0xc load address 0x000046d8
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        __DATA_RAM = .
                 0x20000000                        __data_start__ = .
@@ -1627,21 +1627,21 @@ LOAD /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_
  *(.jcr*)
                 0x2000000c                        . = ALIGN (0x4)
                 0x2000000c                        __data_end__ = .
-                0x000045d0                        __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x000046e4                        __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
                 0x00100000                        text_end = (ORIGIN (m_text) + LENGTH (m_text))
                 0x00000001                        ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
 
 .tm_clone_table
-                0x2000000c        0x0 load address 0x000045d0
+                0x2000000c        0x0 load address 0x000046e4
  .tm_clone_table
                 0x2000000c        0x0 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
  .tm_clone_table
                 0x2000000c        0x0 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtend.o
 
-.igot.plt       0x2000000c        0x0 load address 0x000045d0
+.igot.plt       0x2000000c        0x0 load address 0x000046e4
  .igot.plt      0x2000000c        0x0 /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.bss            0x2000000c       0x80 load address 0x000045d0
+.bss            0x2000000c       0x80 load address 0x000046e4
                 0x2000000c                        . = ALIGN (0x4)
                 0x2000000c                        __START_BSS = .
                 0x2000000c                        __bss_start__ = .
@@ -1677,7 +1677,7 @@ LOAD /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_
                 0x2000008c                        __bss_end__ = .
                 0x2000008c                        __END_BSS = .
 
-.heap           0x2000008c      0x404 load address 0x00004650
+.heap           0x2000008c      0x404 load address 0x00004764
                 0x20000090                        . = ALIGN (0x8)
  *fill*         0x2000008c        0x4 
                 0x20000090                        __end__ = .
@@ -1688,7 +1688,7 @@ LOAD /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_
                 0x20000490                        __HeapLimit = .
                 0x20000490                        __heap_limit = .
 
-.stack          0x20000490      0x800 load address 0x00004a54
+.stack          0x20000490      0x800 load address 0x00004b68
                 0x20000490                        . = ALIGN (0x8)
                 0x20000c90                        . = (. + STACK_SIZE)
  *fill*         0x20000490      0x800 
@@ -1781,7 +1781,7 @@ LOAD linker stubs
  .debug_line_str
                 0x000003f6       0xda /Users/gabrielluis/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-darwin-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_dvmd_tls.o)
 
-.debug_info     0x00000000    0x1359b
+.debug_info     0x00000000    0x13646
  .debug_info    0x00000000      0xf78 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/system_MCXA156.c.obj
  .debug_info    0x00000f78      0x910 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/gcc/startup_MCXA156.S.obj
  .debug_info    0x00001888     0x26b4 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c.obj
@@ -1798,9 +1798,9 @@ LOAD linker stubs
  .debug_info    0x0001015f       0x25 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
  .debug_info    0x00010184       0x24 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memset.S.obj
  .debug_info    0x000101a8      0xe1f CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- .debug_info    0x00010fc7     0x25d4 CMakeFiles/hello_world.dir/hello_world.c.obj
+ .debug_info    0x00010fc7     0x267f CMakeFiles/hello_world.dir/hello_world.c.obj
 
-.debug_abbrev   0x00000000     0x22e6
+.debug_abbrev   0x00000000     0x22e5
  .debug_abbrev  0x00000000      0x1da CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/system_MCXA156.c.obj
  .debug_abbrev  0x000001da       0x26 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/gcc/startup_MCXA156.S.obj
  .debug_abbrev  0x00000200      0x338 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c.obj
@@ -1817,7 +1817,7 @@ LOAD linker stubs
  .debug_abbrev  0x00001d09       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
  .debug_abbrev  0x00001d1d       0x14 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memset.S.obj
  .debug_abbrev  0x00001d31      0x20c CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- .debug_abbrev  0x00001f3d      0x3a9 CMakeFiles/hello_world.dir/hello_world.c.obj
+ .debug_abbrev  0x00001f3d      0x3a8 CMakeFiles/hello_world.dir/hello_world.c.obj
 
 .debug_aranges  0x00000000      0x898
  .debug_aranges
@@ -1886,7 +1886,7 @@ LOAD linker stubs
  .debug_rnglists
                 0x000005ce       0x64 CMakeFiles/hello_world.dir/hello_world.c.obj
 
-.debug_line     0x00000000     0x7cf7
+.debug_line     0x00000000     0x7d8d
  .debug_line    0x00000000      0x488 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/system_MCXA156.c.obj
  .debug_line    0x00000488      0x26a CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/gcc/startup_MCXA156.S.obj
  .debug_line    0x000006f2     0x13d9 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c.obj
@@ -1903,27 +1903,27 @@ LOAD linker stubs
  .debug_line    0x00006ce3       0x88 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
  .debug_line    0x00006d6b       0x77 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memset.S.obj
  .debug_line    0x00006de2      0x610 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- .debug_line    0x000073f2      0x905 CMakeFiles/hello_world.dir/hello_world.c.obj
+ .debug_line    0x000073f2      0x99b CMakeFiles/hello_world.dir/hello_world.c.obj
 
-.debug_str      0x00000000     0x90e6
- .debug_str     0x00000000     0x90e6 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/system_MCXA156.c.obj
+.debug_str      0x00000000     0x918f
+ .debug_str     0x00000000     0x918f CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/system_MCXA156.c.obj
                                0x14ca (size before relaxing)
- .debug_str     0x000090e6     0x1205 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/gcc/startup_MCXA156.S.obj
- .debug_str     0x000090e6     0x339d CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c.obj
- .debug_str     0x000090e6      0xf7a CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.c.obj
- .debug_str     0x000090e6     0x15e8 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/board.c.obj
- .debug_str     0x000090e6     0x161d CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/clock_config.c.obj
- .debug_str     0x000090e6     0x1a0d CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/pin_mux.c.obj
- .debug_str     0x000090e6     0x2fbc CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
- .debug_str     0x000090e6     0x1ece CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
- .debug_str     0x000090e6     0x3c05 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
- .debug_str     0x000090e6     0x1283 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
- .debug_str     0x000090e6      0x2b5 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert/fsl_assert.c.obj
- .debug_str     0x000090e6     0x16cd CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_lite/fsl_debug_console.c.obj
- .debug_str     0x000090e6       0xd0 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
- .debug_str     0x000090e6       0xd0 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memset.S.obj
- .debug_str     0x000090e6     0x18a2 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- .debug_str     0x000090e6     0x3ed7 CMakeFiles/hello_world.dir/hello_world.c.obj
+ .debug_str     0x0000918f     0x1205 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/gcc/startup_MCXA156.S.obj
+ .debug_str     0x0000918f     0x339d CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_clock.c.obj
+ .debug_str     0x0000918f      0xf7a CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.c.obj
+ .debug_str     0x0000918f     0x15e8 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/board.c.obj
+ .debug_str     0x0000918f     0x161d CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/clock_config.c.obj
+ .debug_str     0x0000918f     0x1a0d CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/_boards/frdmmcxa156/demo_apps/hello_world/pin_mux.c.obj
+ .debug_str     0x0000918f     0x2fbc CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.c.obj
+ .debug_str     0x0000918f     0x1ece CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/gpio/fsl_gpio.c.obj
+ .debug_str     0x0000918f     0x3c05 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/lpuart/fsl_lpuart.c.obj
+ .debug_str     0x0000918f     0x1283 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
+ .debug_str     0x0000918f      0x2b5 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/assert/fsl_assert.c.obj
+ .debug_str     0x0000918f     0x16cd CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/debug_console_lite/fsl_debug_console.c.obj
+ .debug_str     0x0000918f       0xd0 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
+ .debug_str     0x0000918f       0xd0 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/misc_utilities/fsl_memset.S.obj
+ .debug_str     0x0000918f     0x18a2 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
+ .debug_str     0x0000918f     0x3f80 CMakeFiles/hello_world.dir/hello_world.c.obj
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 CMakeFiles/hello_world.dir/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/system_MCXA156.c.obj
