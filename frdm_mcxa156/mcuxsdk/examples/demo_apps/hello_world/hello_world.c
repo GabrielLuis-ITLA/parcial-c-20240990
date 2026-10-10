@@ -6,6 +6,7 @@
 #include "fsl_gpio.h"
 #include "fsl_ctimer.h"
 #include "fsl_lpuart.h"
+#include "fsl_reset.h"
 
 #define APP_TICK_TIMER CTIMER0
 #define APP_TICK_IRQn  CTIMER0_IRQn
@@ -46,6 +47,35 @@ void Demo_TickInit(uint32_t timerClockHz)
     CTIMER_StartTimer(APP_TICK_TIMER);
 }
 
+#define APP_PWM_TIMER CTIMER1
+#define APP_PWM_PERIOD_CH kCTIMER_Match_3
+#define APP_PWM_CHANNEL kCTIMER_Match_2
+
+void Demo_PwmInit(void)
+{
+    ctimer_config_t cfg;
+    
+    CLOCK_SetClockDiv(kCLOCK_DivCTIMER1, 1U);
+    CLOCK_AttachClk(kFRO12M_to_CTIMER1);
+    RESET_ReleasePeripheralReset(kCTIMER1_RST_SHIFT_RSTn);
+    CLOCK_EnableClock(kCLOCK_GateCTIMER1);
+
+    CTIMER_GetDefaultConfig(&cfg);
+    CTIMER_Init(APP_PWM_TIMER, &cfg);
+
+    CTIMER_SetupPwmPeriod(APP_PWM_TIMER, APP_PWM_CHANNEL, APP_PWM_PERIOD_CH, 12000U, 0U, false);
+    CTIMER_StartTimer(APP_PWM_TIMER);
+}
+
+void Demo_SetPwmDuty(uint8_t duty)
+{
+    if (duty > 100U) 
+    {
+        duty = 100U;
+    }
+    CTIMER_UpdatePwmDutycycle(APP_PWM_TIMER, APP_PWM_CHANNEL, APP_PWM_PERIOD_CH, duty);
+}
+
 int main(void)
 {
     BOARD_InitBootPins();
@@ -54,18 +84,17 @@ int main(void)
 
     PRINTF("FRDM-MCXA156: consola disponible\r\n");
 
-    /* 1. Asignar divisor y conectar el reloj de 12MHz al CTIMER0 */
     CLOCK_SetClockDiv(kCLOCK_DivCTIMER0, 1U);
     CLOCK_AttachClk(kFRO12M_to_CTIMER0);
-
-    /* 2. Liberar el reset y encender el CTIMER0 */
     RESET_ReleasePeripheralReset(kCTIMER0_RST_SHIFT_RSTn);
     CLOCK_EnableClock(kCLOCK_GateCTIMER0);
     
     Demo_TickInit(12000000U);
+    Demo_PwmInit(); 
 
     uint32_t lastService = g_ms;
     uint32_t testCounter = 0;
+    uint8_t testDuty = 10U; 
     
     for (;;)
     {
@@ -78,7 +107,12 @@ int main(void)
 
             if (testCounter >= 1000U)
             {
-                PRINTF("El tiempo funciona: han pasado %d segundos\r\n", (now / 1000));
+                Demo_SetPwmDuty(testDuty);
+                PRINTF("Duty Cycle actual: %d%%\r\n", testDuty);
+                
+                if (testDuty == 10U) { testDuty = 90U; }
+                else { testDuty = 10U; }
+                
                 testCounter = 0;
             }
         }

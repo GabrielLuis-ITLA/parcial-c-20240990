@@ -3,6 +3,8 @@
 /Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/devices/MCX/MCXA/MCXA156/drivers/fsl_reset.h:240:20:RESET_ReleasePeripheralReset	16	static
 /Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/common/fsl_common_arm.h:754:24:EnableIRQ	24	static
 /Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/drivers/ctimer/fsl_ctimer.h:517:20:CTIMER_StartTimer	16	static
-/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world/hello_world.c:16:6:Demo_TickCallback	16	static
-/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world/hello_world.c:26:6:Demo_TickInit	40	static
-/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world/hello_world.c:49:5:main	24	static
+/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world/hello_world.c:17:6:Demo_TickCallback	16	static
+/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world/hello_world.c:27:6:Demo_TickInit	40	static
+/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world/hello_world.c:54:6:Demo_PwmInit	24	static
+/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world/hello_world.c:70:6:Demo_SetPwmDuty	16	static
+/Users/gabrielluis/parcial-c-20240990/frdm_mcxa156/mcuxsdk/examples/demo_apps/hello_world/hello_world.c:79:5:main	24	static
