@@ -16,6 +16,9 @@
 > **Justificación de diseño (Prevención de conflictos de Pin Mux):** 
 > Para cumplir con la restricción del mandato de evitar conflictos de hardware, se configuró el LED de estado utilizando el LED VERDE interno (P3_13). El LED ROJO interno (P3_12) comparte físicamente la misma línea que la salida CTIMER1 exigida para el LED externo del PWM, por lo que su uso simultáneo generaba un conflicto de ruteo (Routing Conflict #63).
 
+## Nota sobre la convención de nombres:
+Para garantizar la exigencia de entregar un "proyecto reproducible" estipulada en la rúbrica principal, se ha conservado la estructura original del SDK de NXP (MCUXpresso/CMake). Por lo tanto, el archivo fuente principal es hello_world.c en lugar de 20240990.c, evitando así la ruptura de los scripts de compilación automatizados del entorno.
+
 ## Instrucciones de Compilación y Ejecución
 
 1. Abrir el entorno VS Code con la extensión de NXP MCUXpresso.
