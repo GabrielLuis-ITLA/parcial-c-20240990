@@ -14,11 +14,30 @@
 #define APP_TICK_TIMER CTIMER0
 #define APP_TICK_IRQn  CTIMER0_IRQn
 #define APP_PWM_TIMER CTIMER1
-#define APP_PWM_PERIOD_CH kCTIMER_Match_3
-#define APP_PWM_CHANNEL kCTIMER_Match_2
+#define APP_PWM_PERIOD_CH 3
+#define APP_PWM_CHANNEL 2
 #define APP_SW2_GPIO GPIO1
 #define APP_SW2_PIN 7U
 #define APP_SW2_IRQ GPIO1_IRQn
+
+/* LED Verde de Estado */
+#ifndef BOARD_LED_GREEN_GPIO
+#define APP_LED_GPIO GPIO3
+#define APP_LED_PIN 13U
+#define APP_LED_ON 0U
+#define APP_LED_OFF 1U
+#else
+#define APP_LED_GPIO BOARD_LED_GREEN_GPIO
+#define APP_LED_PIN BOARD_LED_GREEN_GPIO_PIN
+#define APP_LED_ON LOGIC_LED_ON
+#define APP_LED_OFF LOGIC_LED_OFF
+#endif
+
+#if defined(BOARD_DEBUG_UART_BASEADDR)
+    #define APP_UART ((LPUART_Type *)BOARD_DEBUG_UART_BASEADDR)
+#else
+    #define APP_UART LPUART0
+#endif
 
 typedef enum { STATE_MANUAL, STATE_AUTO, STATE_PAUSE } app_state_t;
 app_state_t currentState = STATE_MANUAL;
@@ -32,50 +51,14 @@ uint32_t currentFreq = 1000U;
 
 volatile uint32_t g_ms = 0;
 volatile uint32_t g_buttonEdgePending = 0U;
+uint32_t errorCount = 0U; 
 
-/* ================= RING BUFFER UART (128 bytes exigidos) ================= */
+/* ================= RING BUFFER UART ================= */
 #define RX_RING_BUFFER_SIZE 128U
 #define CMD_BUFFER_SIZE 64U
 volatile uint8_t rxRingBuffer[RX_RING_BUFFER_SIZE];
 volatile uint16_t rxHead = 0;
 volatile uint16_t rxTail = 0;
-
-/* Manejadores de Interrupcion - Atrapan la data en segundo plano */
-void LPUART0_IRQHandler(void)
-{
-    uint32_t flags = LPUART_GetStatusFlags(LPUART0);
-    if (flags & kLPUART_RxDataRegFullFlag) {
-        uint8_t data = LPUART_ReadByte(LPUART0);
-        uint16_t nextHead = (rxHead + 1) % RX_RING_BUFFER_SIZE;
-        if (nextHead != rxTail) { rxRingBuffer[rxHead] = data; rxHead = nextHead; }
-    }
-    if (flags & kLPUART_RxOverrunFlag) { LPUART_ClearStatusFlags(LPUART0, kLPUART_RxOverrunFlag); }
-    SDK_ISR_EXIT_BARRIER;
-}
-
-void LPUART1_IRQHandler(void)
-{
-    uint32_t flags = LPUART_GetStatusFlags(LPUART1);
-    if (flags & kLPUART_RxDataRegFullFlag) {
-        uint8_t data = LPUART_ReadByte(LPUART1);
-        uint16_t nextHead = (rxHead + 1) % RX_RING_BUFFER_SIZE;
-        if (nextHead != rxTail) { rxRingBuffer[rxHead] = data; rxHead = nextHead; }
-    }
-    if (flags & kLPUART_RxOverrunFlag) { LPUART_ClearStatusFlags(LPUART1, kLPUART_RxOverrunFlag); }
-    SDK_ISR_EXIT_BARRIER;
-}
-
-void Demo_UartInit(void)
-{
-#if defined(BOARD_DEBUG_UART_BASEADDR) && defined(BOARD_DEBUG_UART_IRQ)
-    LPUART_Type *uartBase = (LPUART_Type *)BOARD_DEBUG_UART_BASEADDR;
-    LPUART_EnableInterrupts(uartBase, kLPUART_RxDataRegFullInterruptEnable | kLPUART_RxOverrunInterruptEnable);
-    EnableIRQ(BOARD_DEBUG_UART_IRQ);
-#else
-    LPUART_EnableInterrupts(LPUART0, kLPUART_RxDataRegFullInterruptEnable | kLPUART_RxOverrunInterruptEnable);
-    EnableIRQ(LPUART0_IRQn);
-#endif
-}
 
 /* ================= HW INITIALIZATION ================= */
 void Demo_TickCallback(uint32_t flags)
@@ -89,8 +72,9 @@ void Demo_TickInit(void)
     ctimer_config_t cfg;
     ctimer_match_config_t match = {0};
     CTIMER_GetDefaultConfig(&cfg);
-    cfg.prescale = 0U;
+    cfg.prescale = 0U; 
     CTIMER_Init(APP_TICK_TIMER, &cfg);
+    
     match.matchValue = 12000000U / 1000U - 1U;
     match.enableCounterReset = true;
     match.enableCounterStop = false;
@@ -103,23 +87,44 @@ void Demo_TickInit(void)
     CTIMER_StartTimer(APP_TICK_TIMER);
 }
 
+/* HACK: MANIPULACIÓN DIRECTA DE LOS REGISTROS PWM PARA EVITAR ERRORES DEL SDK */
 void Demo_PwmInit(void)
 {
-    ctimer_config_t cfg;
     CLOCK_SetClockDiv(kCLOCK_DivCTIMER1, 1U);
     CLOCK_AttachClk(kFRO12M_to_CTIMER1);
     RESET_ReleasePeripheralReset(kCTIMER1_RST_SHIFT_RSTn);
     CLOCK_EnableClock(kCLOCK_GateCTIMER1);
-    CTIMER_GetDefaultConfig(&cfg);
-    CTIMER_Init(APP_PWM_TIMER, &cfg);
-    CTIMER_SetupPwmPeriod(APP_PWM_TIMER, APP_PWM_CHANNEL, APP_PWM_PERIOD_CH, 12000U, 0U, false);
-    CTIMER_StartTimer(APP_PWM_TIMER);
+    
+    APP_PWM_TIMER->TCR = 0; /* Detener temporizador */
+    APP_PWM_TIMER->PR = 0;  /* Sin prescaler (reloj a 12 MHz) */
+    
+    /* Registro de periodo (Match 3) a 1000 Hz */
+    APP_PWM_TIMER->MR[APP_PWM_PERIOD_CH] = 12000U;
+    
+    /* MCR: Resetear el contador al llegar al Match 3 */
+    APP_PWM_TIMER->MCR = (1U << 10);
+    
+    /* PWMC: Habilitar modo PWM en Match 2 (P3_12) */
+    APP_PWM_TIMER->PWMC = (1U << APP_PWM_CHANNEL);
+    
+    APP_PWM_TIMER->TCR = 1; /* Iniciar temporizador */
 }
 
 void Demo_SetPwmDuty(uint8_t duty)
 {
     if (duty > 100U) duty = 100U;
-    CTIMER_UpdatePwmDutycycle(APP_PWM_TIMER, APP_PWM_CHANNEL, APP_PWM_PERIOD_CH, duty);
+    uint32_t period = APP_PWM_TIMER->MR[APP_PWM_PERIOD_CH];
+    
+    if (duty == 0U) {
+        APP_PWM_TIMER->MR[APP_PWM_CHANNEL] = period + 1U; /* Nunca llega al Match, se queda en 0V absoluto */
+    }
+    else if (duty == 100U) {
+        APP_PWM_TIMER->MR[APP_PWM_CHANNEL] = 0U; /* Salta a 3.3V al instante, sin pulsos residuales */
+    }
+    else {
+        uint32_t ticks = (period * duty) / 100U;
+        APP_PWM_TIMER->MR[APP_PWM_CHANNEL] = period - ticks;
+    }
 }
 
 void GPIO1_IRQHandler(void)
@@ -138,7 +143,24 @@ void Demo_ButtonInit(void)
     EnableIRQ(APP_SW2_IRQ);
 }
 
+void Demo_StatusLedInit(void)
+{
+    gpio_pin_config_t led_config = {kGPIO_DigitalOutput, APP_LED_ON};
+    GPIO_PinInit(APP_LED_GPIO, APP_LED_PIN, &led_config);
+}
+
 /* ================= PARSER HELPERS ================= */
+bool Demo_TryReadByte(uint8_t *byte)
+{
+    uint32_t flags = LPUART_GetStatusFlags(APP_UART);
+    if (flags & (kLPUART_RxOverrunFlag | kLPUART_NoiseErrorFlag | kLPUART_FramingErrorFlag)) {
+        LPUART_ClearStatusFlags(APP_UART, kLPUART_RxOverrunFlag | kLPUART_NoiseErrorFlag | kLPUART_FramingErrorFlag);
+    }
+    if ((flags & kLPUART_RxDataRegFullFlag) == 0U) { return false; }
+    *byte = LPUART_ReadByte(APP_UART);
+    return true;
+}
+
 int ParseStrictInt(const char* str, int* outVal)
 {
     if (*str == '\0') return 0;
@@ -171,6 +193,7 @@ void ProcessCommand(char* cmdRaw)
 
     if (currentState == STATE_PAUSE) {
         if (strncmp(cmd, "MODE", 4) == 0 || strncmp(cmd, "DUTY", 4) == 0 || strncmp(cmd, "FREQ", 4) == 0) {
+            errorCount++;
             PRINTF("ERR STATE\r\n");
             return;
         }
@@ -180,7 +203,8 @@ void ProcessCommand(char* cmdRaw)
         PRINTF("Comandos: HELP, STATUS, MODE MANUAL, MODE AUTO, DUTY n, FREQ n, PAUSE, RESUME, STREAM ON, STREAM OFF\r\nOK\r\n");
     }
     else if (strcmp(cmd, "STATUS") == 0) {
-        PRINTF("Modo: %d, Freq: %dHz, Duty: %d%%, ManDuty: %d%%, Uptime: %ds\r\nOK\r\n", currentState, currentFreq, currentDuty, savedManualDuty, (g_ms/1000));
+        PRINTF("Modo: %d, Freq: %dHz, Duty: %d%%, ManDuty: %d%%, Uptime: %ds, Errores: %d\r\nOK\r\n", 
+                currentState, currentFreq, currentDuty, savedManualDuty, (g_ms/1000), errorCount);
     }
     else if (strcmp(cmd, "MODE MANUAL") == 0) {
         currentState = STATE_MANUAL;
@@ -196,7 +220,10 @@ void ProcessCommand(char* cmdRaw)
         PRINTF("OK\r\n");
     }
     else if (strncmp(cmd, "DUTY", 4) == 0) {
-        if (currentState == STATE_AUTO) { PRINTF("ERR STATE\r\n"); }
+        if (currentState == STATE_AUTO) { 
+            errorCount++;
+            PRINTF("ERR STATE\r\n"); 
+        }
         else {
             char* arg = Trim(cmd + 4);
             int val;
@@ -208,8 +235,8 @@ void ProcessCommand(char* cmdRaw)
                         Demo_SetPwmDuty(currentDuty);
                     }
                     PRINTF("OK\r\n");
-                } else { PRINTF("ERR RANGE\r\n"); }
-            } else { PRINTF("ERR ARG\r\n"); }
+                } else { errorCount++; PRINTF("ERR RANGE\r\n"); }
+            } else { errorCount++; PRINTF("ERR ARG\r\n"); }
         }
     }
     else if (strncmp(cmd, "FREQ", 4) == 0) {
@@ -219,11 +246,11 @@ void ProcessCommand(char* cmdRaw)
             if (val == 500 || val == 1000 || val == 2000) {
                 currentFreq = (uint32_t)val;
                 uint32_t ticks = 12000000U / currentFreq;
-                CTIMER_SetupPwmPeriod(APP_PWM_TIMER, APP_PWM_CHANNEL, APP_PWM_PERIOD_CH, ticks, 0U, false);
+                APP_PWM_TIMER->MR[APP_PWM_PERIOD_CH] = ticks; 
                 Demo_SetPwmDuty(currentDuty);
                 PRINTF("OK\r\n");
-            } else { PRINTF("ERR RANGE\r\n"); }
-        } else { PRINTF("ERR ARG\r\n"); }
+            } else { errorCount++; PRINTF("ERR RANGE\r\n"); }
+        } else { errorCount++; PRINTF("ERR ARG\r\n"); }
     }
     else if (strcmp(cmd, "PAUSE") == 0) {
         if (currentState == STATE_PAUSE) { PRINTF("OK\r\n"); }
@@ -235,7 +262,7 @@ void ProcessCommand(char* cmdRaw)
         }
     }
     else if (strcmp(cmd, "RESUME") == 0) {
-        if (currentState != STATE_PAUSE) { PRINTF("ERR STATE\r\n"); }
+        if (currentState != STATE_PAUSE) { errorCount++; PRINTF("ERR STATE\r\n"); }
         else {
             currentState = prevState;
             Demo_SetPwmDuty(currentDuty);
@@ -251,6 +278,7 @@ void ProcessCommand(char* cmdRaw)
         PRINTF("OK\r\n");
     }
     else {
+        errorCount++;
         PRINTF("ERR COMMAND\r\n");
     }
 }
@@ -270,7 +298,7 @@ int main(void)
     Demo_TickInit();
     Demo_PwmInit();
     Demo_ButtonInit();
-    Demo_UartInit();
+    Demo_StatusLedInit(); 
 
     PRINTF("FRDM-MCXA156: consola disponible\r\n");
 
@@ -285,18 +313,29 @@ int main(void)
     uint8_t longPressFlag = 0U;
     uint32_t autoTimer = 0U;
     uint32_t streamTimer = 0U;
+    uint32_t statusLedTimer = 0U; 
     
     char cmdBuffer[CMD_BUFFER_SIZE];
     uint8_t cmdIdx = 0U;
     uint8_t overflowState = 0U;
+    uint8_t rxChar;
 
     Demo_SetPwmDuty(currentDuty);
+    GPIO_PinWrite(APP_LED_GPIO, APP_LED_PIN, APP_LED_ON); 
 
     for (;;)
     {
         uint32_t now = g_ms;
         
-        /* PROCESAMIENTO DEL BUFFER CIRCULAR (Line-by-Line) */
+        while (Demo_TryReadByte(&rxChar))
+        {
+            uint16_t nextHead = (rxHead + 1) % RX_RING_BUFFER_SIZE;
+            if (nextHead != rxTail) {
+                rxRingBuffer[rxHead] = rxChar;
+                rxHead = nextHead;
+            }
+        }
+        
         while (rxTail != rxHead)
         {
             uint8_t c = rxRingBuffer[rxTail];
@@ -306,10 +345,10 @@ int main(void)
                 if (cmdIdx > 0) {
                     cmdBuffer[cmdIdx] = '\0';
                     if (!overflowState) { ProcessCommand(cmdBuffer); }
-                    else { PRINTF("ERR OVERFLOW\r\n"); overflowState = 0U; }
+                    else { errorCount++; PRINTF("ERR OVERFLOW\r\n"); overflowState = 0U; }
                     cmdIdx = 0U;
                 } else if (overflowState) {
-                    PRINTF("ERR OVERFLOW\r\n"); 
+                    errorCount++; PRINTF("ERR OVERFLOW\r\n"); 
                     overflowState = 0U;
                 }
             } else {
@@ -318,8 +357,8 @@ int main(void)
             }
         }
         
-        /* RUTINA DEL BOTON Y MAQUINA DE ESTADOS (Milisegundos) */
-        if (g_buttonEdgePending) {
+        if (g_buttonEdgePending)
+        {
             g_buttonEdgePending = 0U;
             if (!isDebouncing) {
                 isDebouncing = 1U;
@@ -369,6 +408,7 @@ int main(void)
                     currentState = STATE_MANUAL;
                     currentDuty = savedManualDuty;
                     Demo_SetPwmDuty(currentDuty);
+                    GPIO_PinWrite(APP_LED_GPIO, APP_LED_PIN, APP_LED_ON); 
                     PRINTF("Modo: MANUAL\r\n");
                 }
             }
@@ -383,6 +423,9 @@ int main(void)
                 } else {
                     currentState = prevState;
                     Demo_SetPwmDuty(currentDuty);
+                    if (currentState == STATE_MANUAL) {
+                        GPIO_PinWrite(APP_LED_GPIO, APP_LED_PIN, APP_LED_ON);
+                    }
                     PRINTF("Modo: RESUME\r\n");
                 }
             }
@@ -400,6 +443,21 @@ int main(void)
                     }
                     Demo_SetPwmDuty(currentDuty);
                 }
+            }
+
+            statusLedTimer++;
+            if (currentState == STATE_AUTO) {
+                if (statusLedTimer >= 500U) {
+                    statusLedTimer = 0U;
+                    GPIO_PortToggle(APP_LED_GPIO, 1U << APP_LED_PIN);
+                }
+            } else if (currentState == STATE_PAUSE) {
+                if (statusLedTimer >= 125U) {
+                    statusLedTimer = 0U;
+                    GPIO_PortToggle(APP_LED_GPIO, 1U << APP_LED_PIN);
+                }
+            } else {
+                statusLedTimer = 0U; 
             }
             
             streamTimer++;
