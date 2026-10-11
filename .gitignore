@@ -7,3 +7,10 @@ a.out
 Thumbs.db
 .env
 west/
+*/mcuxsdk/components/
+*/mcuxsdk/devices/
+*/mcuxsdk/drivers/
+*/mcuxsdk/middleware/
+*/mcuxsdk/rtos/
+.west/
+debug/
